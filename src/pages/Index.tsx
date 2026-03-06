@@ -7,6 +7,7 @@ import LocalIntro from "@/components/LocalIntro";
 import SEOContent from "@/components/SEOContent";
 import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import ProgrammeAGP from "@/components/ProgrammeAGP";
 import Formation from "@/components/Formation";
 import About from "@/components/About";
 import Reviews from "@/components/Reviews";
@@ -154,6 +155,7 @@ const Index = () => {
         <SEOContent />
         <Services />
         <WhyChooseUs />
+        <ProgrammeAGP />
         <Formation />
         <About />
         <Reviews />
