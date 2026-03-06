@@ -15,135 +15,138 @@ import ChatBot from "@/components/ChatBot";
 import WeightLossPopup from "@/components/WeightLossPopup";
 
 const Index = () => {
-  useEffect(() => {
-    document.title = "Perte de poids Bordeaux & Gironde – Programme AGP créé à Bordeaux";
-
-    const metaDescription = document.querySelector('meta[name="description"]');
-    const descContent = "Programme de perte de poids structuré par un praticien bordelais à Tresses (33). Hypnose, chronobiologie & neurofeedback – suivi en ligne ou en cabinet.";
-    if (metaDescription) {
-      metaDescription.setAttribute("content", descContent);
-    }
-
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement("meta");
-      metaKeywords.setAttribute("name", "keywords");
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute("content", "perte de poids bordeaux, neurofeedback tresses, programme minceur gironde, hypnose perte de poids, cabinet bien-être bordeaux, méthode AGP bordeaux");
-
-    // Open Graph
-    const setOgMeta = (property: string, content: string) => {
-      let tag = document.querySelector(`meta[property="${property}"]`);
-      if (!tag) {
-        tag = document.createElement("meta");
-        tag.setAttribute("property", property);
-        document.head.appendChild(tag);
-      }
-      tag.setAttribute("content", content);
-    };
-    setOgMeta("og:title", "Perte de poids Bordeaux & Gironde – Programme AGP créé à Bordeaux");
-    setOgMeta("og:description", "Programme de perte de poids structuré par un praticien bordelais à Tresses (33). Hypnose, chronobiologie & neurofeedback – suivi en ligne ou en cabinet.");
-    setOgMeta("og:type", "website");
-
-    // Schema Markup LocalBusiness
-    const structuredData = document.createElement("script");
-    structuredData.type = "application/ld+json";
-    structuredData.setAttribute("data-homepage-schema", "true");
-    structuredData.textContent = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Méthodes Douces Bordeaux - Eric Gata",
-      "description": "Cabinet spécialisé en perte de poids (Méthode AGP) et neurofeedback à Tresses près de Bordeaux",
-      "url": "https://methodes-douces-bordeaux.fr",
-      "telephone": "+33782386621",
-      "priceRange": "90€-690€",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "9 Galerie Marchande",
-        "addressLocality": "Tresses",
-        "postalCode": "33370",
-        "addressRegion": "Gironde",
-        "addressCountry": "FR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "44.8386",
-        "longitude": "-0.4676"
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "19:00"
-      },
-      "areaServed": [
-        { "@type": "City", "name": "Bordeaux" },
-        { "@type": "City", "name": "Tresses" },
-        { "@type": "City", "name": "Libourne" },
-        { "@type": "AdministrativeArea", "name": "Gironde" }
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "reviewCount": "55"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Services proposés",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Programme Perte de Poids 30 Jours AGP",
-              "price": "90",
-              "priceCurrency": "EUR"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Neurofeedback"
-            }
+    useEffect(() => {
+          document.title = "Programme AGP – Perte de poids durable en France | Méthode AGP + Neurofeedback";
+          const metaDescription = document.querySelector('meta[name="description"]');
+          const descContent = "Programme AGP – Accompagnement Gestion du Poids. Programme 30 Jours combinant hypnose, chronobiologie et neurofeedback pour une perte de poids durable. Accessible partout en France en ligne ou en cabinet à Tresses (Bordeaux).";
+          if (metaDescription) {
+                  metaDescription.setAttribute("content", descContent);
           }
-        ]
-      }
-    });
 
-    // Remove old schema if present
-    const oldSchema = document.querySelector('script[data-homepage-schema]');
-    if (oldSchema) oldSchema.remove();
-    document.head.appendChild(structuredData);
+                  let metaKeywords = document.querySelector('meta[name="keywords"]');
+          if (!metaKeywords) {
+                  metaKeywords = document.createElement("meta");
+                  metaKeywords.setAttribute("name", "keywords");
+                  document.head.appendChild(metaKeywords);
+          }
+          metaKeywords.setAttribute("content", "programme AGP, perte de poids durable, accompagnement gestion du poids, méthode AGP, neurofeedback, hypnose perte de poids, programme 30 jours, bordeaux, france");
 
-    return () => {
-      if (structuredData.parentNode) {
-        structuredData.parentNode.removeChild(structuredData);
-      }
-    };
-  }, []);
+                  // Open Graph
+                  const setOgMeta = (property: string, content: string) => {
+                          let tag = document.querySelector(`meta[property="${property}"]`);
+                          if (!tag) {
+                                    tag = document.createElement("meta");
+                                    tag.setAttribute("property", property);
+                                    document.head.appendChild(tag);
+                          }
+                          tag.setAttribute("content", content);
+                  };
 
-  return (
-    <div className="min-h-screen">
-      <Header />
-      <main>
-        <Hero />
-        <LocalIntro />
-        <SEOContent />
-        <Services />
-        <WhyChooseUs />
-        <Formation />
-        <About />
-        <Reviews />
-        <Contact />
-        <ZoneIntervention />
-      </main>
-      <Footer />
-      <ChatBot />
-      <WeightLossPopup />
-    </div>
-  );
+                  setOgMeta("og:title", "Programme AGP – Perte de poids durable en France | Méthode AGP + Neurofeedback");
+          setOgMeta("og:description", "Programme AGP – Accompagnement Gestion du Poids. Programme 30 Jours combinant hypnose, chronobiologie et neurofeedback pour une perte de poids durable. Accessible partout en France.");
+          setOgMeta("og:type", "website");
+          setOgMeta("og:url", "https://programme-agp.fr");
+
+                  // Schema Markup LocalBusiness
+                  const structuredData = document.createElement("script");
+          structuredData.type = "application/ld+json";
+          structuredData.setAttribute("data-homepage-schema", "true");
+          structuredData.textContent = JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "LocalBusiness",
+                  "@id": "https://programme-agp.fr/#business",
+                  "name": "Programme AGP – Accompagnement Gestion du Poids",
+                  "alternateName": "Eric Gata - Méthode AGP",
+                  "description": "Programme AGP : perte de poids durable par hypnose, chronobiologie et neurofeedback. Cabinet à Tresses (Bordeaux), accessible partout en France en ligne.",
+                  "url": "https://programme-agp.fr",
+                  "telephone": "+33782386621",
+                  "priceRange": "90€-690€",
+                  "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "9 Galerie Marchande",
+                            "addressLocality": "Tresses",
+                            "postalCode": "33370",
+                            "addressRegion": "Gironde",
+                            "addressCountry": "FR"
+                  },
+                  "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": "44.8386",
+                            "longitude": "-0.4676"
+                  },
+                  "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                            "opens": "09:00",
+                            "closes": "19:00"
+                  },
+                  "areaServed": [
+                    { "@type": "Country", "name": "France" },
+                    { "@type": "City", "name": "Bordeaux" },
+                    { "@type": "City", "name": "Tresses" },
+                    { "@type": "AdministrativeArea", "name": "Gironde" }
+                          ],
+                  "aggregateRating": {
+                            "@type": "AggregateRating",
+                            "ratingValue": "5",
+                            "reviewCount": "55"
+                  },
+                  "hasOfferCatalog": {
+                            "@type": "OfferCatalog",
+                            "name": "Programme AGP – Services",
+                            "itemListElement": [
+                              {
+                                            "@type": "Offer",
+                                            "itemOffered": {
+                                                            "@type": "Service",
+                                                            "name": "Programme Perte de Poids 30 Jours AGP",
+                                                            "price": "90",
+                                                            "priceCurrency": "EUR"
+                                            }
+                              },
+                              {
+                                            "@type": "Offer",
+                                            "itemOffered": {
+                                                            "@type": "Service",
+                                                            "name": "Neurofeedback Dynamique"
+                                            }
+                              }
+                                      ]
+                  }
+          });
+
+                  // Remove old schema if present
+                  const oldSchema = document.querySelector('script[data-homepage-schema]');
+          if (oldSchema) oldSchema.remove();
+          document.head.appendChild(structuredData);
+
+                  return () => {
+                          if (structuredData.parentNode) {
+                                    structuredData.parentNode.removeChild(structuredData);
+                          }
+                  };
+    }, []);
+
+    return (
+          <div className="min-h-screen">
+                <Header />
+                <main>
+                        <Hero />
+                        <LocalIntro />
+                        <SEOContent />
+                        <Services />
+                        <WhyChooseUs />
+                        <Formation />
+                        <About />
+                        <Reviews />
+                        <Contact />
+                        <ZoneIntervention />
+                </main>main>
+                <Footer />
+                <ChatBot />
+                <WeightLossPopup />
+          </div>div>
+        );
 };
 
-export default Index;
+export default Index;</div>
