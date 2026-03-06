@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, Target, Smartphone, Users, MapPin, CheckCircle2, X } from "lucide-react";
+import { Calendar, Target, Smartphone, Users, MapPin, CircleCheck as CheckCircle2, X } from "lucide-react";
 import logoProgramme from "@/assets/logo-programme-30-jours.jpg";
 
 const ProgrammeAGP = () => {
