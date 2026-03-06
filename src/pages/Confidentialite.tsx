@@ -112,7 +112,7 @@ const Confidentialite = () => {
               </ul>
               <p>
                 Toute demande doit être adressée par e-mail à <a href="mailto:eric.gata@gmail.com">eric.gata@gmail.com</a>, 
-                accompagnée d'une pièce d'identité.
+                accompagnée d'une pièce d\'identité.
               </p>
             </section>
 

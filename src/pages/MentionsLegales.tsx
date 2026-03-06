@@ -207,7 +207,7 @@ const MentionsLegales = () => {
                 </li>
                 <li>
                   <strong>Sous Firefox :</strong> en haut de la fenêtre du navigateur, cliquez sur le bouton Firefox, puis aller dans 
-                  l'onglet Options. Cliquer sur l'onglet Vie privée. Paramétrez les Règles de conservation sur : utiliser les paramètres 
+                  l'onglet Options. Cliquer sur l\'onglet Vie privée. Paramétrez les Règles de conservation sur : utiliser les paramètres 
                   personnalisés pour l'historique. Enfin décochez-la pour désactiver les cookies.
                 </li>
                 <li>
@@ -248,7 +248,7 @@ const MentionsLegales = () => {
                 </li>
                 <li>
                   <strong>Informations personnelles :</strong> « les informations qui permettent, sous quelque forme que ce soit, 
-                  directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi 
+                  directement ou non, l'identification des personnes physiques auxquelles elles s\'appliquent » (article 4 de la loi 
                   n° 78-17 du 6 janvier 1978).
                 </li>
               </ul>

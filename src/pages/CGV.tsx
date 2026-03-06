@@ -52,7 +52,7 @@ const CGV = () => {
               </div>
               <p>
                 Ci-après dénommé <strong>le Prestataire</strong>, et toute personne physique ou morale souhaitant bénéficier 
-                d'un accompagnement ou d'une formation, ci-après dénommée <strong>le Client</strong>.
+                d'un accompagnement ou d\'une formation, ci-après dénommée <strong>le Client</strong>.
               </p>
               <p>
                 Le site internet accessible à l'adresse <strong>https://www.methodes-douces-bordeaux.fr</strong> présente 
