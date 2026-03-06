@@ -39,25 +39,37 @@ const Header = () => {
   const navigateToAbout = () => {
     setIsMenuOpen(false);
     navigate("/a-propos");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 100);
   };
 
   const navigateToProgramme = () => {
     setIsMenuOpen(false);
     navigate("/programme-30-jours");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 100);
   };
 
   const navigateToBlog = () => {
     setIsMenuOpen(false);
     navigate("/blog");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 100);
   };
 
   const navigateToHome = () => {
     setIsMenuOpen(false);
-    navigate("/");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    if (location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      navigate("/");
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }, 100);
+    }
   };
 
   return (

@@ -9,6 +9,7 @@ const Confidentialite = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "Politique de Confidentialité - AGP Méthodes Douces Bordeaux";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

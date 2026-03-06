@@ -11,6 +11,7 @@ import ericPhoto from "@/assets/eric-gata-portrait.png";
 const About = () => {
   const navigate = useNavigate();
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "À propos - Eric Gata | Cabinet bien-être Tresses (33)";
     
     // Canonical

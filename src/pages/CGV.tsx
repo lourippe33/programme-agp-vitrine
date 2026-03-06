@@ -9,6 +9,7 @@ const CGV = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "Conditions Générales de Vente - AGP Méthodes Douces Bordeaux";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

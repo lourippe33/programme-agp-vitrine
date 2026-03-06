@@ -16,6 +16,7 @@ declare global {
 const HypnoseEftH = () => {
   const navigate = useNavigate();
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "Hypnose et EFT-H à Tresses (33) - Cabinet bien-être près de Bordeaux";
     
     // Canonical

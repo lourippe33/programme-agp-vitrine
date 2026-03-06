@@ -10,6 +10,7 @@ import heroImage from "@/assets/pexels-pixabay-53404.jpg";
 
 const Programme30Jours = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "Programme Perte de Poids 30 Jours Bordeaux | Méthode AGP Tresses Gironde";
 
     // Canonical
