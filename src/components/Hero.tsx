@@ -69,7 +69,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
               >
                 <LayoutDashboard className="mr-2" size={20} />
-                Mon espace
+                Mon appli AGP
               </a>
             </Button>
           </div>
