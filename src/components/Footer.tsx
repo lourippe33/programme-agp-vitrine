@@ -103,7 +103,7 @@ const Footer = () => {
                                                             </li>
                                                             <li>
                                                                             <a
-                                                                                                href="https://formation.programme-agp.fr"
+                                                                                                href="https://formation.programme-agp.fr/"
                                                                                                 target="_blank"
                                                                                                 rel="noopener noreferrer"
                                                                                                 className="hover:text-primary transition-colors"

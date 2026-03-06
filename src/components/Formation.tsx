@@ -106,7 +106,7 @@ const Formation = () => {
                   className="bg-gradient-primary hover:shadow-strong transition-all text-lg px-8 py-6 hover:scale-105"
                   asChild
                 >
-                  <a href="https://formation.programme-agp.fr" target="_blank" rel="noopener noreferrer">
+                  <a href="https://formation.programme-agp.fr/" target="_blank" rel="noopener noreferrer">
                     En savoir plus sur la formation
                   </a>
                 </Button>

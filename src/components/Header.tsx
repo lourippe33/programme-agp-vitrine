@@ -83,7 +83,7 @@ const Header = () => {
             </button>
 
             <a
-              href="https://formation.programme-agp.fr"
+              href="https://formation.programme-agp.fr/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-primary transition-colors font-medium"
@@ -154,7 +154,7 @@ const Header = () => {
             </button>
 
             <a
-              href="https://formation.programme-agp.fr"
+              href="https://formation.programme-agp.fr/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
