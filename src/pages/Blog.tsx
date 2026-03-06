@@ -18,6 +18,7 @@ import pertePoidsImg from "@/assets/perte-poids-sans-regime-bordeaux.jpg";
 import visioCoachingImg from "@/assets/seance-visio-coaching-agp.jpg";
 import emotionsImg from "@/assets/manger-emotions-perte-poids.jpg";
 import pertePoidsApres40Img from "@/assets/perte-poids-apres-40-ans.jpg";
+import blogHeroImage from "@/assets/pexels-pixabay-262508.jpg";
 
 const Blog = () => {
   useEffect(() => {
@@ -212,16 +213,30 @@ const Blog = () => {
           <Breadcrumbs items={[{ label: "Accueil", path: "/" }, { label: "Blog" }]} />
         </div>
 
-        {/* Hero Section */}
-        <section className="container mx-auto px-4 py-12">
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
-              Blog Bien-être & Méthodes Douces
-            </h1>
-            <p className="text-xl text-muted-foreground">
-              Conseils, informations et actualités sur le neurofeedback, l'hypnose, l'EFT-H et l'accompagnement au
-              bien-être
-            </p>
+        {/* Hero Section with Background Image */}
+        <section className="py-20 relative overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <img
+              src={blogHeroImage}
+              alt="Blog Bien-être et Méthodes Douces"
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="eager"
+            />
+            {/* Overlay pour améliorer la lisibilité du texte */}
+            <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/80 to-background/95"></div>
+          </div>
+
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="max-w-4xl mx-auto text-center space-y-6">
+              <h1 className="text-4xl md:text-5xl font-heading font-bold bg-gradient-primary bg-clip-text text-transparent">
+                Blog Bien-être & Méthodes Douces
+              </h1>
+              <p className="text-xl text-foreground/80">
+                Conseils, informations et actualités sur le neurofeedback, l'hypnose, l'EFT-H et l'accompagnement au
+                bien-être
+              </p>
+            </div>
           </div>
         </section>
 
