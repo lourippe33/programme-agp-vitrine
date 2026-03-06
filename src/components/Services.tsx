@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Target, Activity, ArrowRight } from "lucide-react";
+import { Target, GraduationCap, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
@@ -22,19 +22,21 @@ const services = [
     external: false,
   },
   {
-    icon: Activity,
-    title: "Neurofeedback",
+    icon: GraduationCap,
+    title: "Formation AGP Perte de Poids",
     description:
-      "Régulation naturelle du cerveau pour retrouver apaisement mental, concentration et sommeil plus paisible. Méthode douce adaptée aux adultes, enfants et adolescents.",
+      "Formation complète pour praticiens souhaitant accompagner leurs clients dans la gestion du poids. Accès à vie, covisions mensuelles et communauté active.",
     benefits: [
-      "Surcharge mentale",
-      "Difficultés d'endormissement",
-      "Agitation intérieure",
-      "Apaisement du mental",
+      "Chronobiologie et neuromédiateurs",
+      "Coaching et hypnose",
+      "Outils thérapeutiques complets",
+      "Covisions mensuelles en live",
+      "Communauté de praticiens",
+      "Attestation de formation",
     ],
     color: "secondary",
-    link: "/neurofeedback",
-    external: false,
+    link: "https://formation.programme-agp.fr/",
+    external: true,
   },
 ];
 
@@ -44,7 +46,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
-            Nos accompagnements pour la perte de poids à Tresses (Bordeaux / Gironde)
+            Nos programmes pour la perte de poids à Tresses (Bordeaux / Gironde)
           </h2>
           <p className="text-xl text-muted-foreground font-light">
             Un programme conçu et animé par un praticien bordelais, avec suivi hebdomadaire, hypnose et application mobile pour structurer chaque jour votre changement.

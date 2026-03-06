@@ -40,9 +40,8 @@ const Hero = () => {
           </h1>
 
           <h2 className="text-xl md:text-2xl font-heading font-semibold text-foreground/90">
-            Programme 30 Jours AGP + Neurofeedback — créé à Bordeaux par un praticien
-            local, accessible partout en France en visioconférence ou en cabinet à
-            Tresses (33370).
+            Programme 30 Jours AGP — créé à Bordeaux par un praticien local,
+            accessible partout en France en visioconférence ou en cabinet à Tresses (33370).
           </h2>
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center pt-4 md:pt-6">
@@ -56,15 +55,6 @@ const Hero = () => {
                 className="ml-2 group-hover:translate-x-1 transition-transform"
                 size={20}
               />
-            </Button>
-
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={scrollToServices}
-              className="border-2 border-primary text-primary hover:bg-primary/10 text-base md:text-lg px-6 md:px-8 py-5 md:py-6 w-full sm:w-auto hover:scale-105 transition-transform"
-            >
-              Voir nos accompagnements
             </Button>
 
             <Button

@@ -35,13 +35,14 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-            🌟 Le seul cabinet à Bordeaux combinant Neurofeedback et Méthode AGP
+            🌟 Une méthode éprouvée pour une perte de poids durable
           </h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-12 max-w-3xl mx-auto">
-            Notre approche unique associe les neurosciences (neurofeedback) et l'accompagnement 
-            holistique de la perte de poids (méthode AGP). Cette synergie permet des résultats 
-            durables en agissant à la fois sur le cerveau, les émotions et les comportements alimentaires.
+            Le Programme AGP combine hypnose, chronobiologie et accompagnement personnalisé
+            pour vous aider à retrouver un poids santé de manière naturelle et durable.
+            Une approche holistique qui agit sur vos émotions, vos habitudes alimentaires
+            et votre bien-être global.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">

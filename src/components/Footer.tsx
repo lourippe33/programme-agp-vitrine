@@ -35,7 +35,7 @@ const Footer = () => {
                                                               className="h-16 w-auto"
                                                             />
                                               <p className="text-muted-foreground text-sm">
-                                                            Programme AGP – Accompagnement Gestion du Poids. Perte de poids durable par hypnose, chronobiologie et neurofeedback, créé à Tresses (Bordeaux), accessible partout en France.
+                                                            Programme AGP – Accompagnement Gestion du Poids. Perte de poids durable par hypnose et chronobiologie, créé à Tresses (Bordeaux), accessible partout en France.
                                               </p>
                                               <p className="text-muted-foreground text-xs italic mt-2">
                                                             Ces méthodes visent au bien-être et ne remplacent pas un suivi médical si nécessaire.

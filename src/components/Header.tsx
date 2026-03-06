@@ -75,13 +75,6 @@ const Header = () => {
               </span>
             </button>
 
-            <button
-              onClick={() => navigate("/neurofeedback")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Neurofeedback
-            </button>
-
             <a
               href="https://formation.programme-agp.fr/"
               target="_blank"
@@ -144,13 +137,6 @@ const Header = () => {
                   🔥 NOUVEAU
                 </span>
               </span>
-            </button>
-
-            <button
-              onClick={() => navigate("/neurofeedback")}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
-            >
-              Neurofeedback
             </button>
 
             <a

@@ -17,11 +17,11 @@ import WeightLossPopup from "@/components/WeightLossPopup";
 const Index = () => {
   useEffect(() => {
     document.title =
-      "Programme AGP – Perte de poids durable en France | Méthode AGP + Neurofeedback";
+      "Programme AGP – Perte de poids durable en France | Méthode AGP";
 
     const metaDescription = document.querySelector('meta[name="description"]');
     const descContent =
-      "Programme AGP – Accompagnement Gestion du Poids. Programme 30 Jours combinant hypnose, chronobiologie et neurofeedback pour une perte de poids durable. Accessible partout en France en ligne ou en cabinet à Tresses (Bordeaux).";
+      "Programme AGP – Accompagnement Gestion du Poids. Programme 30 Jours combinant hypnose, chronobiologie et coaching pour une perte de poids durable. Accessible partout en France en ligne ou en cabinet à Tresses (Bordeaux).";
 
     if (metaDescription) {
       metaDescription.setAttribute("content", descContent);
@@ -36,7 +36,7 @@ const Index = () => {
 
     metaKeywords.setAttribute(
       "content",
-      "programme AGP, perte de poids durable, accompagnement gestion du poids, méthode AGP, neurofeedback, hypnose perte de poids, programme 30 jours, bordeaux, france"
+      "programme AGP, perte de poids durable, accompagnement gestion du poids, méthode AGP, hypnose perte de poids, programme 30 jours, formation AGP, bordeaux, france"
     );
 
     const setOgMeta = (property: string, content: string) => {
@@ -51,11 +51,11 @@ const Index = () => {
 
     setOgMeta(
       "og:title",
-      "Programme AGP – Perte de poids durable en France | Méthode AGP + Neurofeedback"
+      "Programme AGP – Perte de poids durable en France | Méthode AGP"
     );
     setOgMeta(
       "og:description",
-      "Programme AGP – Accompagnement Gestion du Poids. Programme 30 Jours combinant hypnose, chronobiologie et neurofeedback pour une perte de poids durable. Accessible partout en France."
+      "Programme AGP – Accompagnement Gestion du Poids. Programme 30 Jours combinant hypnose, chronobiologie et coaching pour une perte de poids durable. Accessible partout en France."
     );
     setOgMeta("og:type", "website");
     setOgMeta("og:url", "https://programme-agp.fr");
@@ -73,7 +73,7 @@ const Index = () => {
       name: "Programme AGP – Accompagnement Gestion du Poids",
       alternateName: "Eric Gata - Méthode AGP",
       description:
-        "Programme AGP : perte de poids durable par hypnose, chronobiologie et neurofeedback. Cabinet à Tresses (Bordeaux), accessible partout en France en ligne.",
+        "Programme AGP : perte de poids durable par hypnose, chronobiologie et coaching. Cabinet à Tresses (Bordeaux), accessible partout en France en ligne.",
       url: "https://programme-agp.fr",
       telephone: "+33782386621",
       priceRange: "90€-690€",
@@ -124,7 +124,7 @@ const Index = () => {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Neurofeedback Dynamique",
+              name: "Formation AGP Perte de Poids",
             },
           },
         ],

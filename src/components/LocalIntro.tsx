@@ -10,9 +10,9 @@ const LocalIntro = () => {
             Un accompagnement créé ici, pour vous
           </h2>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            Créé à Bordeaux par un praticien spécialisé en hypnose, chronobiologie et neurofeedback, 
-            le programme AGP a été pensé pour répondre aux besoins réels des personnes de Gironde 
-            et de toute la France. Que vous veniez de Tresses, Bordeaux, Mérignac ou d'ailleurs, 
+            Créé à Bordeaux par un praticien spécialisé en hypnose et chronobiologie,
+            le programme AGP a été pensé pour répondre aux besoins réels des personnes de Gironde
+            et de toute la France. Que vous veniez de Tresses, Bordeaux, Mérignac ou d'ailleurs,
             vous bénéficiez d'un accompagnement structuré, humain et personnalisé.
           </p>
         </div>
