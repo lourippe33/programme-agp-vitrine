@@ -6,6 +6,7 @@ import { Calendar, Target, TrendingDown, CheckCircle2, MapPin, Phone } from "luc
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import logoProgramme30Jours from "@/assets/logo-programme-30-jours.jpg";
+import heroImage from "@/assets/pexels-pixabay-53404.jpg";
 
 const Programme30Jours = () => {
   useEffect(() => {
@@ -98,9 +99,21 @@ const Programme30Jours = () => {
 
         </div>
 
-        {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-br from-primary/10 via-background to-secondary/10">
-          <div className="container mx-auto px-4">
+        {/* Hero Section with Background Image */}
+        <section className="py-20 relative overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <img
+              src={heroImage}
+              alt="Programme perte de poids - Balance et ruban de mesure"
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="eager"
+            />
+            {/* Overlay pour améliorer la lisibilité du texte */}
+            <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/60 to-background/90"></div>
+          </div>
+
+          <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full mb-6 animate-pulse">
                 <span className="relative flex h-3 w-3">
