@@ -5,26 +5,81 @@ import logoProgramme from "@/assets/logo-programme-30-jours.jpg";
 
 const ProgrammeAGP = () => {
   return (
-    <section id="programme" className="py-24 bg-gradient-to-br from-secondary/5 via-background to-primary/5">
-      <div className="container mx-auto px-4">
-        <div className="max-w-5xl mx-auto">
-          {/* Header */}
-          <div className="text-center mb-12 space-y-4">
-            <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full mb-4 animate-pulse">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
-              </span>
-              <span className="text-sm font-semibold text-primary">Nouveau Programme</span>
-            </div>
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
-              Programme Perte de Poids 30 Jours
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-light">
-              30 jours pour reprendre le contrôle en douceur, naturellement.
-            </p>
-          </div>
+    <section id="programme" className="relative py-24 bg-gradient-to-br from-secondary/5 via-background to-primary/5">
+      {/* Hero Section with Background Image */}
+      <div className="relative mb-16 -mt-24 pt-24">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url(/images/image.png)`,
+            backgroundPosition: 'center',
+          }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-background"></div>
+        </div>
 
+        <div className="relative container mx-auto px-4 py-24">
+          <div className="max-w-4xl mx-auto text-center space-y-6">
+            <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-4 animate-pulse">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+              </span>
+              <span className="text-sm font-semibold text-white">Nouveau Programme</span>
+            </div>
+
+            <h2 className="text-4xl md:text-6xl font-heading font-bold text-white drop-shadow-lg">
+              Perdre du Poids Durablement à Bordeaux, en Gironde et en France
+            </h2>
+
+            <p className="text-xl md:text-2xl text-white/95 max-w-3xl mx-auto font-light drop-shadow">
+              Programme 30 Jours AGP – créé à Bordeaux par un praticien local, accessible partout en France en visioconférence ou en cabinet à Tresses (33370).
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+              <Button
+                size="lg"
+                className="bg-gradient-primary hover:shadow-strong transition-all text-lg px-8 py-6 hover:scale-105"
+                asChild
+              >
+                <a href="#details-programme">
+                  Découvrir le Programme 30 Jours
+                </a>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 text-lg px-8 py-6 hover:scale-105"
+                asChild
+              >
+                <a href="#avantages">
+                  En savoir plus →
+                </a>
+              </Button>
+            </div>
+
+            <div className="flex items-center justify-center gap-3 pt-6">
+              <div className="flex -space-x-2">
+                <div className="w-10 h-10 rounded-full bg-primary/80 border-2 border-white flex items-center justify-center text-white font-bold">V</div>
+                <div className="w-10 h-10 rounded-full bg-secondary/80 border-2 border-white flex items-center justify-center text-white font-bold">H</div>
+                <div className="w-10 h-10 rounded-full bg-primary/80 border-2 border-white flex items-center justify-center text-white font-bold">V</div>
+                <div className="w-10 h-10 rounded-full bg-secondary/80 border-2 border-white flex items-center justify-center text-white font-bold">M</div>
+              </div>
+              <div className="text-white/95">
+                <div className="flex gap-0.5">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <span key={star} className="text-yellow-400">★</span>
+                  ))}
+                </div>
+                <p className="text-sm">4.9/5 – 55 avis Google</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4" id="details-programme">
+        <div className="max-w-5xl mx-auto">
           {/* Programme Logo */}
           <div className="mb-8 text-center">
             <img
@@ -35,7 +90,7 @@ const ProgrammeAGP = () => {
           </div>
 
           {/* Introduction Card */}
-          <Card className="border-0 shadow-soft overflow-hidden bg-card/80 backdrop-blur-sm mb-8">
+          <Card className="border-0 shadow-soft overflow-hidden bg-card/80 backdrop-blur-sm mb-8" id="avantages">
             <CardContent className="p-8 space-y-4">
               <h3 className="text-2xl font-bold flex items-center gap-2">
                 <span>🌿</span> Défi minceur 30 jours
