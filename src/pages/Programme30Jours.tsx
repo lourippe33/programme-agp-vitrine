@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ChoixAccompagnement from "@/components/ChoixAccompagnement";
 import { Button } from "@/components/ui/button";
 import { Calendar, Target, TrendingDown, CircleCheck as CheckCircle2, MapPin, Phone } from "lucide-react";
 import { useEffect } from "react";
@@ -389,35 +390,6 @@ const Programme30Jours = () => {
                 <p className="text-lg font-semibold text-primary">Alors ce programme est pour vous.</p>
               </div>
 
-              {/* Launch Offer */}
-              <div className="bg-gradient-to-br from-primary/10 to-secondary/10 p-8 rounded-lg border-2 border-primary/20 mb-8">
-                <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">
-                  <span>🚀</span> Offre de Lancement : 90€ au lieu de 149€
-                </h3>
-                <p className="text-foreground/80 mb-6">
-                  Je propose actuellement ce programme, à tarif réduit, pour donner un coup de boost à votre perte de
-                  poids :
-                </p>
-                <div className="bg-card p-6 rounded-lg mb-6 text-center">
-                  <p className="text-3xl font-bold text-primary mb-2">
-                    Profitez de cette offre de lancement à 90€ au lieu de 149€
-                  </p>
-                  <p className="text-sm text-muted-foreground"></p>
-                </div>
-                <Button
-                  size="lg"
-                  className="w-full bg-gradient-primary hover:shadow-strong text-lg hover:scale-105 transition-transform"
-                  asChild>
-
-                  <a
-                    href="https://ericgata.thrivecart.com/httpsbuystripecom14a4gzetc8fu1qtekqc3m02/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-
-                    Je réserve mon programme à 90€
-                  </a>
-                </Button>
-              </div>
 
               {/* What you'll find */}
               <div className="bg-card p-8 rounded-lg border border-border">
@@ -440,6 +412,9 @@ const Programme30Jours = () => {
             </div>
           </div>
         </section>
+
+        {/* Section Choix d'Accompagnement */}
+        <ChoixAccompagnement />
 
         {/* Zone d'intervention - Gironde */}
         <section className="py-20">
