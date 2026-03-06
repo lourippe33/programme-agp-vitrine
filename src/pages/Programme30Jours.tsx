@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
-import { Calendar, Target, TrendingDown, CheckCircle2, MapPin, Phone } from "lucide-react";
+import { Calendar, Target, TrendingDown, CircleCheck as CheckCircle2, MapPin, Phone } from "lucide-react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import logoProgramme30Jours from "@/assets/logo-programme-30-jours.jpg";
