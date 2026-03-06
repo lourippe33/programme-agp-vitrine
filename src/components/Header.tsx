@@ -39,11 +39,25 @@ const Header = () => {
   const navigateToAbout = () => {
     setIsMenuOpen(false);
     navigate("/a-propos");
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const navigateToProgramme = () => {
     setIsMenuOpen(false);
     navigate("/programme-30-jours");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const navigateToBlog = () => {
+    setIsMenuOpen(false);
+    navigate("/blog");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const navigateToHome = () => {
+    setIsMenuOpen(false);
+    navigate("/");
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -63,6 +77,13 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
+            <button
+              onClick={navigateToHome}
+              className="text-foreground hover:text-primary transition-colors font-medium"
+            >
+              Accueil
+            </button>
+
             <button
               onClick={navigateToProgramme}
               className="relative text-foreground hover:text-primary transition-colors font-medium"
@@ -90,7 +111,7 @@ const Header = () => {
             </button>
 
             <button
-              onClick={() => navigate("/blog")}
+              onClick={navigateToBlog}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
               Blog
@@ -126,6 +147,13 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in">
             <button
+              onClick={navigateToHome}
+              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+            >
+              Accueil
+            </button>
+
+            <button
               onClick={navigateToProgramme}
               className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
             >
@@ -152,7 +180,7 @@ const Header = () => {
             </button>
 
             <button
-              onClick={() => navigate("/blog")}
+              onClick={navigateToBlog}
               className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
             >
               Blog
