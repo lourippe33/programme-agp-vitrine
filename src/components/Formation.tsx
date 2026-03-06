@@ -107,7 +107,7 @@ const Formation = () => {
                   asChild
                 >
                   <a href="https://formation.programme-agp.fr/" target="_blank" rel="noopener noreferrer">
-                    En savoir plus sur la formation
+                    Accès aux professionnels du bien-être
                   </a>
                 </Button>
               </div>

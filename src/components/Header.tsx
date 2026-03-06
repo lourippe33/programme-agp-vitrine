@@ -75,14 +75,12 @@ const Header = () => {
               </span>
             </button>
 
-            <a
-              href="https://formation.programme-agp.fr/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => scrollToSection("formation")}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
-              Formation
-            </a>
+              Formation AGP
+            </button>
 
             <button
               onClick={navigateToAbout}
@@ -139,15 +137,12 @@ const Header = () => {
               </span>
             </button>
 
-            <a
-              href="https://formation.programme-agp.fr/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => scrollToSection("formation")}
               className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
-              onClick={() => setIsMenuOpen(false)}
             >
-              Formation
-            </a>
+              Formation AGP
+            </button>
 
             <button
               onClick={navigateToAbout}

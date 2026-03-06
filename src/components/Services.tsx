@@ -97,7 +97,7 @@ const Services = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        En savoir plus
+                        Accès aux professionnels du bien-être
                         <ArrowRight
                           className="ml-2 group-hover/btn:translate-x-1 transition-transform"
                           size={16}
