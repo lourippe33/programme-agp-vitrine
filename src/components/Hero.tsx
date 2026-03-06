@@ -74,44 +74,62 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="pt-8 md:pt-12 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-5xl mx-auto">
-            <div
-              className="space-y-1 md:space-y-2 animate-slide-up"
-              style={{ animationDelay: "0.2s" }}
-            >
-              <div className="text-2xl md:text-4xl font-bold text-primary">+1000</div>
-              <div className="text-xs md:text-base text-muted-foreground">
-                Personnes accompagnées
+          <div className="pt-8 md:pt-12">
+            <div className="flex items-center justify-center gap-2 mb-8">
+              <div className="flex -space-x-2">
+                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">V</div>
+                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">M</div>
+                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">C</div>
+                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">A</div>
+                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">S</div>
+              </div>
+              <div className="flex items-center gap-1 text-amber-500">
+                <span className="text-2xl">★★★★★</span>
               </div>
             </div>
+            <p className="text-center text-sm md:text-base text-muted-foreground mb-8">
+              4.9/5 — 55 avis Google
+            </p>
 
-            <div
-              className="space-y-1 md:space-y-2 animate-slide-up"
-              style={{ animationDelay: "0.3s" }}
-            >
-              <div className="text-2xl md:text-4xl font-bold text-primary">+450</div>
-              <div className="text-xs md:text-base text-muted-foreground">
-                Praticiens formés
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-5xl mx-auto">
+              <div
+                className="space-y-1 md:space-y-2 animate-slide-up"
+                style={{ animationDelay: "0.2s" }}
+              >
+                <div className="text-2xl md:text-4xl font-bold text-primary">+1000</div>
+                <div className="text-xs md:text-base text-muted-foreground">
+                  Personnes accompagnées
+                </div>
               </div>
-            </div>
 
-            <div
-              className="space-y-1 md:space-y-2 animate-slide-up"
-              style={{ animationDelay: "0.4s" }}
-            >
-              <div className="text-2xl md:text-4xl font-bold text-secondary">95%</div>
-              <div className="text-xs md:text-base text-muted-foreground">
-                Taux de satisfaction
+              <div
+                className="space-y-1 md:space-y-2 animate-slide-up"
+                style={{ animationDelay: "0.3s" }}
+              >
+                <div className="text-2xl md:text-4xl font-bold text-primary">+450</div>
+                <div className="text-xs md:text-base text-muted-foreground">
+                  Praticiens formés
+                </div>
               </div>
-            </div>
 
-            <div
-              className="space-y-1 md:space-y-2 animate-slide-up"
-              style={{ animationDelay: "0.5s" }}
-            >
-              <div className="text-2xl md:text-4xl font-bold text-primary">10+</div>
-              <div className="text-xs md:text-base text-muted-foreground">
-                Années d&apos;expérience
+              <div
+                className="space-y-1 md:space-y-2 animate-slide-up"
+                style={{ animationDelay: "0.4s" }}
+              >
+                <div className="text-2xl md:text-4xl font-bold text-secondary">95%</div>
+                <div className="text-xs md:text-base text-muted-foreground">
+                  Taux de satisfaction
+                </div>
+              </div>
+
+              <div
+                className="space-y-1 md:space-y-2 animate-slide-up"
+                style={{ animationDelay: "0.5s" }}
+              >
+                <div className="text-2xl md:text-4xl font-bold text-primary">10+</div>
+                <div className="text-xs md:text-base text-muted-foreground">
+                  Années d&apos;expérience
+                </div>
               </div>
             </div>
           </div>

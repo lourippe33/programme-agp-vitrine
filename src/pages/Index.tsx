@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import FailedDietsSection from "@/components/FailedDietsSection";
+import FourPillars from "@/components/FourPillars";
 import LocalIntro from "@/components/LocalIntro";
 import SEOContent from "@/components/SEOContent";
 import Services from "@/components/Services";
@@ -8,6 +10,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Formation from "@/components/Formation";
 import About from "@/components/About";
 import Reviews from "@/components/Reviews";
+import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import ZoneIntervention from "@/components/ZoneIntervention";
 import Footer from "@/components/Footer";
@@ -145,6 +148,8 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <FailedDietsSection />
+        <FourPillars />
         <LocalIntro />
         <SEOContent />
         <Services />
@@ -152,6 +157,7 @@ const Index = () => {
         <Formation />
         <About />
         <Reviews />
+        <FAQ />
         <Contact />
         <ZoneIntervention />
       </main>
