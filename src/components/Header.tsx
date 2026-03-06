@@ -104,7 +104,7 @@ const Header = () => {
               rel="noopener noreferrer"
               className="text-foreground hover:text-primary transition-colors font-medium border border-primary/30 px-3 py-1.5 rounded-lg hover:bg-primary/5 transition-all"
             >
-              Mon espace
+              Mon appli AGP
             </a>
 
             <Button
@@ -170,7 +170,7 @@ const Header = () => {
               className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
-              Mon espace
+              Mon appli AGP
             </a>
 
             <Button
