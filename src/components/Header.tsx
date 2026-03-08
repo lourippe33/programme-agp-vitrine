@@ -10,9 +10,12 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Pages avec header transparent avec effet fondu (page d'accueil, blog, programme)
+  // Pages avec header transparent avec effet fondu
   const pagesWithTransparentHeader = ["/", "/blog", "/programme-30-jours"];
   const hasTransparentHeader = pagesWithTransparentHeader.includes(location.pathname);
+
+  // Page Programme a besoin de texte foncé car l'image est claire en haut
+  const shouldUseDarkText = location.pathname === "/programme-30-jours";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -115,7 +118,9 @@ const Header = () => {
               onClick={navigateToHome}
               className={`transition-colors font-medium ${
                 shouldUseTransparentHeader
-                  ? "text-white hover:text-white/80"
+                  ? shouldUseDarkText
+                    ? "text-foreground hover:text-primary"
+                    : "text-white hover:text-white/80"
                   : "text-foreground hover:text-primary"
               }`}
             >
@@ -126,7 +131,9 @@ const Header = () => {
               onClick={navigateToProgramme}
               className={`relative transition-colors font-medium ${
                 shouldUseTransparentHeader
-                  ? "text-white hover:text-white/80"
+                  ? shouldUseDarkText
+                    ? "text-foreground hover:text-primary"
+                    : "text-white hover:text-white/80"
                   : "text-foreground hover:text-primary"
               }`}
             >
@@ -142,7 +149,9 @@ const Header = () => {
               onClick={() => scrollToSection("formation")}
               className={`transition-colors font-medium ${
                 shouldUseTransparentHeader
-                  ? "text-white hover:text-white/80"
+                  ? shouldUseDarkText
+                    ? "text-foreground hover:text-primary"
+                    : "text-white hover:text-white/80"
                   : "text-foreground hover:text-primary"
               }`}
             >
@@ -153,7 +162,9 @@ const Header = () => {
               onClick={navigateToAbout}
               className={`transition-colors font-medium ${
                 shouldUseTransparentHeader
-                  ? "text-white hover:text-white/80"
+                  ? shouldUseDarkText
+                    ? "text-foreground hover:text-primary"
+                    : "text-white hover:text-white/80"
                   : "text-foreground hover:text-primary"
               }`}
             >
@@ -164,7 +175,9 @@ const Header = () => {
               onClick={navigateToBlog}
               className={`transition-colors font-medium ${
                 shouldUseTransparentHeader
-                  ? "text-white hover:text-white/80"
+                  ? shouldUseDarkText
+                    ? "text-foreground hover:text-primary"
+                    : "text-white hover:text-white/80"
                   : "text-foreground hover:text-primary"
               }`}
             >
@@ -177,7 +190,9 @@ const Header = () => {
               rel="noopener noreferrer"
               className={`transition-all font-medium px-3 py-1.5 rounded-lg ${
                 shouldUseTransparentHeader
-                  ? "text-white border border-white/30 hover:bg-white/10"
+                  ? shouldUseDarkText
+                    ? "text-foreground hover:text-primary border border-primary/30 hover:bg-primary/5"
+                    : "text-white border border-white/30 hover:bg-white/10"
                   : "text-foreground hover:text-primary border border-primary/30 hover:bg-primary/5"
               }`}
             >
@@ -195,7 +210,11 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             className={`md:hidden transition-colors ${
-              shouldUseTransparentHeader ? "text-white" : "text-foreground"
+              shouldUseTransparentHeader
+                ? shouldUseDarkText
+                  ? "text-foreground"
+                  : "text-white"
+                : "text-foreground"
             }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
