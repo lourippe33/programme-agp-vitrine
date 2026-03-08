@@ -122,6 +122,9 @@ const Reviews = () => {
                 <Card className="h-full hover:shadow-lg transition-all duration-300 border-border bg-card">
                   <CardContent className="p-6 flex flex-col h-full">
                     <div className="flex items-center gap-3 mb-4">
+                      <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm">
+                        {getInitials(review.auteur)}
+                      </div>
                       <div className="flex-1">
                         <h3 className="font-semibold text-foreground text-sm">
                           {review.auteur}
