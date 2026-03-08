@@ -1,13 +1,23 @@
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useNavigate, useLocation } from "react-router-dom";
 import logo from "@/assets/logo-agp.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const scrollToSection = (id: string) => {
     setIsMenuOpen(false);
@@ -73,7 +83,11 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-soft">
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      isScrolled
+        ? "bg-background/95 backdrop-blur-sm border-b border-border shadow-soft"
+        : "bg-transparent"
+    }`}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={handleLogoClick}>
@@ -91,14 +105,22 @@ const Header = () => {
           <nav className="hidden md:flex items-center gap-8">
             <button
               onClick={navigateToHome}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className={`transition-colors font-medium ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               Accueil
             </button>
 
             <button
               onClick={navigateToProgramme}
-              className="relative text-foreground hover:text-primary transition-colors font-medium"
+              className={`relative transition-colors font-medium ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               <span className="relative inline-flex items-center gap-2">
                 Programme Perte de Poids
@@ -110,21 +132,33 @@ const Header = () => {
 
             <button
               onClick={() => scrollToSection("formation")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className={`transition-colors font-medium ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               Formation AGP
             </button>
 
             <button
               onClick={navigateToAbout}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className={`transition-colors font-medium ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               À propos
             </button>
 
             <button
               onClick={navigateToBlog}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className={`transition-colors font-medium ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               Blog
             </button>
@@ -133,7 +167,11 @@ const Header = () => {
               href="https://app.programme-agp.fr"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-foreground hover:text-primary transition-colors font-medium border border-primary/30 px-3 py-1.5 rounded-lg hover:bg-primary/5 transition-all"
+              className={`transition-all font-medium px-3 py-1.5 rounded-lg ${
+                isScrolled
+                  ? "text-foreground hover:text-primary border border-primary/30 hover:bg-primary/5"
+                  : "text-white border border-white/30 hover:bg-white/10"
+              }`}
             >
               Mon appli AGP
             </a>
@@ -148,7 +186,9 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-foreground"
+            className={`md:hidden transition-colors ${
+              isScrolled ? "text-foreground" : "text-white"
+            }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -157,17 +197,27 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in">
+          <nav className={`md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in rounded-lg p-4 ${
+            isScrolled ? "bg-background/50" : "bg-black/30 backdrop-blur-md"
+          }`}>
             <button
               onClick={navigateToHome}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              className={`text-left transition-colors font-medium py-2 ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               Accueil
             </button>
 
             <button
               onClick={navigateToProgramme}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              className={`text-left transition-colors font-medium py-2 ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               <span className="flex items-center gap-2">
                 Programme Perte de Poids
@@ -179,21 +229,33 @@ const Header = () => {
 
             <button
               onClick={() => scrollToSection("formation")}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              className={`text-left transition-colors font-medium py-2 ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               Formation AGP
             </button>
 
             <button
               onClick={navigateToAbout}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              className={`text-left transition-colors font-medium py-2 ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               À propos
             </button>
 
             <button
               onClick={navigateToBlog}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              className={`text-left transition-colors font-medium py-2 ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
             >
               Blog
             </button>
@@ -202,7 +264,11 @@ const Header = () => {
               href="https://app.programme-agp.fr"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              className={`text-left transition-colors font-medium py-2 ${
+                isScrolled
+                  ? "text-foreground hover:text-primary"
+                  : "text-white hover:text-white/80"
+              }`}
               onClick={() => setIsMenuOpen(false)}
             >
               Mon appli AGP
