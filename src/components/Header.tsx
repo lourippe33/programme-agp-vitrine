@@ -10,14 +10,22 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
+  // Pages avec image hero en plein écran (seulement la page d'accueil)
+  const pagesWithHero = ["/"];
+  const hasHeroImage = pagesWithHero.includes(location.pathname);
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Check initial scroll position
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Sur les pages sans hero, toujours afficher le header avec fond
+  const shouldUseTransparentHeader = hasHeroImage && !isScrolled;
 
   const scrollToSection = (id: string) => {
     setIsMenuOpen(false);
@@ -84,9 +92,9 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-      isScrolled
-        ? "bg-background/95 backdrop-blur-sm border-b border-border shadow-soft"
-        : "bg-transparent"
+      shouldUseTransparentHeader
+        ? "bg-transparent"
+        : "bg-background/95 backdrop-blur-sm border-b border-border shadow-soft"
     }`}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
@@ -106,9 +114,9 @@ const Header = () => {
             <button
               onClick={navigateToHome}
               className={`transition-colors font-medium ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               Accueil
@@ -117,9 +125,9 @@ const Header = () => {
             <button
               onClick={navigateToProgramme}
               className={`relative transition-colors font-medium ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               <span className="relative inline-flex items-center gap-2">
@@ -133,9 +141,9 @@ const Header = () => {
             <button
               onClick={() => scrollToSection("formation")}
               className={`transition-colors font-medium ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               Formation AGP
@@ -144,9 +152,9 @@ const Header = () => {
             <button
               onClick={navigateToAbout}
               className={`transition-colors font-medium ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               À propos
@@ -155,9 +163,9 @@ const Header = () => {
             <button
               onClick={navigateToBlog}
               className={`transition-colors font-medium ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               Blog
@@ -168,9 +176,9 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               className={`transition-all font-medium px-3 py-1.5 rounded-lg ${
-                isScrolled
-                  ? "text-foreground hover:text-primary border border-primary/30 hover:bg-primary/5"
-                  : "text-white border border-white/30 hover:bg-white/10"
+                shouldUseTransparentHeader
+                  ? "text-white border border-white/30 hover:bg-white/10"
+                  : "text-foreground hover:text-primary border border-primary/30 hover:bg-primary/5"
               }`}
             >
               Mon appli AGP
@@ -187,7 +195,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             className={`md:hidden transition-colors ${
-              isScrolled ? "text-foreground" : "text-white"
+              shouldUseTransparentHeader ? "text-white" : "text-foreground"
             }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -198,14 +206,14 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className={`md:hidden mt-4 pb-4 flex flex-col gap-4 animate-fade-in rounded-lg p-4 ${
-            isScrolled ? "bg-background/50" : "bg-black/30 backdrop-blur-md"
+            shouldUseTransparentHeader ? "bg-black/30 backdrop-blur-md" : "bg-background/50"
           }`}>
             <button
               onClick={navigateToHome}
               className={`text-left transition-colors font-medium py-2 ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               Accueil
@@ -214,9 +222,9 @@ const Header = () => {
             <button
               onClick={navigateToProgramme}
               className={`text-left transition-colors font-medium py-2 ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               <span className="flex items-center gap-2">
@@ -230,9 +238,9 @@ const Header = () => {
             <button
               onClick={() => scrollToSection("formation")}
               className={`text-left transition-colors font-medium py-2 ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               Formation AGP
@@ -241,9 +249,9 @@ const Header = () => {
             <button
               onClick={navigateToAbout}
               className={`text-left transition-colors font-medium py-2 ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               À propos
@@ -252,9 +260,9 @@ const Header = () => {
             <button
               onClick={navigateToBlog}
               className={`text-left transition-colors font-medium py-2 ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
             >
               Blog
@@ -265,9 +273,9 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               className={`text-left transition-colors font-medium py-2 ${
-                isScrolled
-                  ? "text-foreground hover:text-primary"
-                  : "text-white hover:text-white/80"
+                shouldUseTransparentHeader
+                  ? "text-white hover:text-white/80"
+                  : "text-foreground hover:text-primary"
               }`}
               onClick={() => setIsMenuOpen(false)}
             >
