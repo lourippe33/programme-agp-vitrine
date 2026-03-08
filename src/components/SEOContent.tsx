@@ -35,32 +35,21 @@ const SEOContent = () => {
           {/* Section Pour qui */}
           <div className="space-y-3">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground">
-              Pour qui ?
+             
             </h2>
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-              Cet accompagnement s'adresse aux personnes souhaitant perdre du poids durablement,
-              retrouver un équilibre émotionnel et transformer leur relation à l'alimentation.
-              La méthode AGP convient aux adultes, hommes et femmes, qui cherchent une approche
-              douce et naturelle, sans régime restrictif.
+              
             </p>
           </div>
 
           {/* Additional content */}
           <div className="space-y-3">
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-              Chaque accompagnement est personnalisé en fonction de vos objectifs et de votre rythme.
-              Les séances permettent de mieux comprendre vos comportements alimentaires, d'apaiser
-              les émotions liées à la nourriture et d'encourager des changements durables.
-              Que ce soit pour la gestion du poids, retrouver confiance en vous ou développer
-              de nouvelles habitudes saines, les méthodes utilisées favorisent l'autonomie
-              et l'équilibre intérieur.
+              
             </p>
 
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-              Mon rôle n'est pas de vous diriger, mais de vous accompagner avec une approche accessible,
-              claire et progressive. Chaque séance vous aide à développer vos propres ressources
-              et à prendre appui sur vos capacités naturelles d'adaptation pour atteindre
-              un poids santé de manière durable.
+             
             </p>
           </div>
 
