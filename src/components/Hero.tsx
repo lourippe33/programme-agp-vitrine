@@ -75,21 +75,14 @@ const Hero = () => {
           </div>
 
           <div className="pt-8 md:pt-12">
-            <div className="flex items-center justify-center gap-2 mb-8">
-              <div className="flex -space-x-2">
-                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">V</div>
-                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">M</div>
-                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">C</div>
-                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">A</div>
-                <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-background flex items-center justify-center text-primary font-bold">S</div>
-              </div>
+            <div className="flex flex-col items-center justify-center gap-4 mb-8">
               <div className="flex items-center gap-1 text-amber-500">
                 <span className="text-2xl">★★★★★</span>
               </div>
+              <p className="text-center text-sm md:text-base text-muted-foreground">
+                4.9/5 — 55 avis Google
+              </p>
             </div>
-            <p className="text-center text-sm md:text-base text-muted-foreground mb-8">
-              4.9/5 — 55 avis Google
-            </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-5xl mx-auto">
               <div
