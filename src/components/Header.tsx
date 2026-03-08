@@ -10,8 +10,8 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Pages avec image hero en plein écran (seulement la page d'accueil)
-  const pagesWithHero = ["/"];
+  // Pages avec image hero en plein écran
+  const pagesWithHero = ["/", "/programme-30-jours"];
   const hasHeroImage = pagesWithHero.includes(location.pathname);
 
   useEffect(() => {

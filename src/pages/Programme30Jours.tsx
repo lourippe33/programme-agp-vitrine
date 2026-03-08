@@ -90,19 +90,9 @@ const Programme30Jours = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <main className="pt-24">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <Breadcrumbs
-            items={[
-            {
-              label: "Programme 30 Jours"
-            }]
-            } />
-
-        </div>
-
-        {/* Hero Section with Background Image */}
-        <section className="py-20 relative overflow-hidden">
+      <main>
+        {/* Hero Section with Background Image - Full Screen */}
+        <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
           {/* Background Image */}
           <div className="absolute inset-0">
             <img
@@ -110,13 +100,14 @@ const Programme30Jours = () => {
               alt="Programme perte de poids - Balance et ruban de mesure"
               className="absolute inset-0 w-full h-full object-cover"
               loading="eager"
+              fetchPriority="high"
             />
             {/* Overlay pour améliorer la lisibilité du texte */}
-            <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/60 to-background/90"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/50 to-background/90"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
-            <div className="max-w-4xl mx-auto text-center">
+            <div className="max-w-4xl mx-auto text-center animate-fade-in">
               <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full mb-6 animate-pulse">
                 <span className="relative flex h-3 w-3">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
