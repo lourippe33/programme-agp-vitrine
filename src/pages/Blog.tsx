@@ -208,13 +208,9 @@ const Blog = () => {
 
       <Header />
 
-      <main className="pt-24">
-        <div className="container mx-auto px-4 py-8">
-          <Breadcrumbs items={[{ label: "Accueil", path: "/" }, { label: "Blog" }]} />
-        </div>
-
-        {/* Hero Section with Background Image */}
-        <section className="py-20 relative overflow-hidden">
+      <main>
+        {/* Hero Section with Background Image - Full Screen */}
+        <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
           {/* Background Image */}
           <div className="absolute inset-0">
             <img
@@ -222,13 +218,14 @@ const Blog = () => {
               alt="Blog Bien-être et Méthodes Douces"
               className="absolute inset-0 w-full h-full object-cover"
               loading="eager"
+              fetchPriority="high"
             />
             {/* Overlay pour améliorer la lisibilité du texte */}
-            <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/80 to-background/95"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/70 to-background/90"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
-            <div className="max-w-4xl mx-auto text-center space-y-6">
+            <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">
               <h1 className="text-4xl md:text-5xl font-heading font-bold bg-gradient-primary bg-clip-text text-transparent">
                 Blog Bien-être & Méthodes Douces
               </h1>

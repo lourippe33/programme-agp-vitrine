@@ -10,9 +10,9 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Pages avec image hero en plein écran
-  const pagesWithHero = ["/", "/programme-30-jours"];
-  const hasHeroImage = pagesWithHero.includes(location.pathname);
+  // Pages avec header transparent et texte blanc (seulement la page d'accueil)
+  const pagesWithTransparentHeader = ["/"];
+  const hasTransparentHeader = pagesWithTransparentHeader.includes(location.pathname);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,8 +24,8 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Sur les pages sans hero, toujours afficher le header avec fond
-  const shouldUseTransparentHeader = hasHeroImage && !isScrolled;
+  // Le header est transparent uniquement sur la page d'accueil et au top de la page
+  const shouldUseTransparentHeader = hasTransparentHeader && !isScrolled;
 
   const scrollToSection = (id: string) => {
     setIsMenuOpen(false);

@@ -103,7 +103,7 @@ const Programme30Jours = () => {
               fetchPriority="high"
             />
             {/* Overlay pour améliorer la lisibilité du texte */}
-            <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/50 to-background/90"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/70 to-background/90"></div>
           </div>
 
           <div className="container mx-auto px-4 relative z-10">
