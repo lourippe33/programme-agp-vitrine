@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, Target, Smartphone, Users, MapPin, CircleCheck as CheckCircle2, X } from "lucide-react";
+import { Calendar, Target, Smartphone, Users, CircleCheck as CheckCircle2, X } from "lucide-react";
 import logoProgramme from "@/assets/logo-programme-30-jours.jpg";
 
 const ProgrammeAGP = () => {
@@ -43,14 +43,6 @@ const ProgrammeAGP = () => {
               <p className="text-foreground/80">
                 Vous avez peut-être déjà essayé plusieurs régimes, compté les calories, supprimé des aliments, repris, re-perdu, puis reperdu confiance dans votre capacité à changer. Si c'est le cas, sachez une chose : <strong>ce n'est pas vous le problème.</strong>
               </p>
-              <div className="bg-primary/5 p-4 rounded-lg border border-primary/10">
-                <p className="font-semibold text-foreground flex items-center gap-2 mb-2">
-                  <MapPin className="w-5 h-5 text-primary" /> Vous habitez Bordeaux, Tresses, Libourne ou la Gironde ?
-                </p>
-                <p className="text-foreground/80">
-                  Ce programme est 100% accessible en ligne avec un suivi personnalisé hebdomadaire en visio depuis mon cabinet à Tresses (33370).
-                </p>
-              </div>
               <p className="text-foreground/80">
                 Le programme AGP a été conçu pour vous permettre de sortir de cette bataille intérieure, sans régime, sans frustration, et sans culpabilité.
               </p>
@@ -168,15 +160,6 @@ const ProgrammeAGP = () => {
                   </ul>
                 </div>
               </div>
-
-              <div className="bg-primary/5 p-4 rounded-lg border border-primary/10">
-                <p className="font-semibold text-foreground flex items-center gap-2 mb-2">
-                  <MapPin className="w-5 h-5 text-primary" /> Suivi depuis Tresses, et accessible partout
-                </p>
-                <p className="text-foreground/80">
-                  Que vous soyez à Bordeaux centre, Libourne, Cenon ou ailleurs en Gironde, vous bénéficiez du même accompagnement de qualité en visio.
-                </p>
-              </div>
             </CardContent>
           </Card>
 
@@ -228,10 +211,6 @@ const ProgrammeAGP = () => {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                   <span>Si vous voulez vous sentir fière, stable, alignée</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span>Si vous cherchez un accompagnement perte de poids à Bordeaux ou en Gironde</span>
                 </li>
               </ul>
               <p className="text-lg font-semibold text-primary">Alors ce programme est pour vous.</p>

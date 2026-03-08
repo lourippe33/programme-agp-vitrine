@@ -238,18 +238,6 @@ const Programme30Jours = () => {
                     chose : <strong>ce n'est pas vous le problème.</strong>
                   </p>
 
-                  {/* INSERTION 1 - Paragraphe géolocalisé */}
-                  <div className="bg-primary/5 p-4 rounded-lg border border-primary/10">
-                    <p className="font-semibold text-foreground flex items-center gap-2 mb-2">
-                      <MapPin className="w-5 h-5 text-primary" /> Vous habitez Bordeaux, Tresses, Libourne ou la Gironde
-                      ?
-                    </p>
-                    <p>
-                      Ce programme est 100% accessible en ligne avec un suivi personnalisé hebdomadaire en visio depuis
-                      mon cabinet à Tresses (33370).
-                    </p>
-                  </div>
-
                   <p>
                     Le corps, les émotions et les automatismes alimentaires travaillent ensemble. Si l'un prend le
                     dessus, tout devient lutte.
@@ -338,17 +326,6 @@ const Programme30Jours = () => {
                       Pour échanger entre nous et répondre à vos questions tout au long du programme.
                     </p>
                   </div>
-
-                  {/* INSERTION 2 - Suivi géolocalisé */}
-                  <div className="bg-primary/5 p-4 rounded-lg border border-primary/10">
-                    <p className="font-semibold text-foreground flex items-center gap-2 mb-2">
-                      <MapPin className="w-5 h-5 text-primary" /> Suivi depuis Tresses, et accessible partout :
-                    </p>
-                    <p className="text-foreground/80">
-                      Que vous soyez à Bordeaux centre, Libourne, Cenon ou ailleurs en Gironde, vous bénéficiez du même
-                      accompagnement de qualité en visio.
-                    </p>
-                  </div>
                 </div>
               </div>
 
@@ -384,8 +361,6 @@ const Programme30Jours = () => {
                   <li>• Si vous cherchez une solution douce mais durable</li>
                   <li>• Si vous voulez vous sentir fière, stable, alignée</li>
                   <li>• Si vous voulez arrêter de commencer / arrêter / recommencer</li>
-                  {/* INSERTION 3 - Ligne géolocalisée */}
-                  <li>• Si vous cherchez un accompagnement perte de poids à Bordeaux ou en Gironde</li>
                 </ul>
                 <p className="text-lg font-semibold text-primary">Alors ce programme est pour vous.</p>
               </div>
