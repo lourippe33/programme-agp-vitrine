@@ -11,10 +11,19 @@ const About = () => {
               Une approche bienveillante
             </h2>
             <p className="text-xl text-muted-foreground font-light">
-              Vous êtes dans une situation bloquante et avez besoin d'accompagnement 
+              Vous êtes dans une situation bloquante et avez besoin d'accompagnement
               pour concrétiser votre objectif ?
             </p>
           </div>
+
+          <Card className="p-8 bg-gradient-to-br from-muted/30 to-muted/10 border-0 shadow-soft mb-12">
+            <p className="text-muted-foreground text-center leading-relaxed font-light">
+              Que vous souhaitiez retrouver confiance en vous, gérer votre stress, perdre du poids
+              de manière durable, ou arrêter de fumer, je vous propose un accompagnement personnalisé
+              avec des méthodes douces et efficaces. Chaque parcours est unique, et ensemble,
+              nous travaillerons pour atteindre vos objectifs de bien-être.
+            </p>
+          </Card>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <Card className="p-6 text-center hover:shadow-warm transition-all duration-500 hover:-translate-y-1 border-0 shadow-soft bg-card/80 backdrop-blur-sm">
@@ -52,12 +61,6 @@ const About = () => {
             <h3 className="text-2xl font-heading font-semibold mb-4 text-center">
               Alors ces méthodes peuvent vous aider
             </h3>
-            <p className="text-muted-foreground text-center leading-relaxed font-light">
-              Que vous souhaitiez retrouver confiance en vous, gérer votre stress, perdre du poids 
-              de manière durable, ou arrêter de fumer, je vous propose un accompagnement personnalisé 
-              avec des méthodes douces et efficaces. Chaque parcours est unique, et ensemble, 
-              nous travaillerons pour atteindre vos objectifs de bien-être.
-            </p>
           </Card>
         </div>
       </div>
