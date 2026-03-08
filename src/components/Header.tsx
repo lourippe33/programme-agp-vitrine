@@ -10,8 +10,8 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Pages avec header transparent et texte blanc (seulement la page d'accueil)
-  const pagesWithTransparentHeader = ["/"];
+  // Pages avec header transparent avec effet fondu (page d'accueil, blog, programme)
+  const pagesWithTransparentHeader = ["/", "/blog", "/programme-30-jours"];
   const hasTransparentHeader = pagesWithTransparentHeader.includes(location.pathname);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Le header est transparent uniquement sur la page d'accueil et au top de la page
+  // Le header est transparent sur les pages avec hero et au top de la page
   const shouldUseTransparentHeader = hasTransparentHeader && !isScrolled;
 
   const scrollToSection = (id: string) => {
