@@ -137,12 +137,7 @@ const Header = () => {
                   : "text-foreground hover:text-primary"
               }`}
             >
-              <span className="relative inline-flex items-center gap-2">
-                Programme Perte de Poids
-                <span className="bg-blue-500 text-white px-2 py-0.5 rounded-full animate-pulse text-xs whitespace-nowrap">
-                  🔥 NOUVEAU
-                </span>
-              </span>
+              Programme Perte de Poids
             </button>
 
             <button
