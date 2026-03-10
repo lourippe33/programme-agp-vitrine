@@ -12,7 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Brain, Heart, Moon, Zap, CheckCircle, Phone, CreditCard } from "lucide-react";
+import { Brain, Heart, Moon, Zap, CircleCheck as CheckCircle, Phone, CreditCard } from "lucide-react";
 import ericPhoto from "@/assets/eric-gata-portrait.png";
 import sylviaPhoto from "@/assets/sylvia-rui-portrait.png";
 const Neurofeedback = () => {

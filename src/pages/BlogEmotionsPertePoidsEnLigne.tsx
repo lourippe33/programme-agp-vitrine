@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Calendar, Clock, User, ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowLeft, Calendar, Clock, User, ArrowRight, CircleCheck as CheckCircle } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -324,7 +324,7 @@ const BlogEmotionsPertePoidsEnLigne = () => {
                 <Link to="/a-propos" className="text-primary hover:underline">
                   cabinet de Tresses près de Bordeaux
                 </Link>
-                , la première chose qu'il m'a dite, c'est : 
+                , la première chose qu'il m\'a dite, c'est : 
                 <em className="text-foreground"> « On ne va pas parler de nourriture aujourd'hui. On va parler de vous. »</em>
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
@@ -381,7 +381,7 @@ const BlogEmotionsPertePoidsEnLigne = () => {
                 <Link to="/programme-30-jours" className="text-primary hover:underline">
                   Programme AGP 30 Jours
                 </Link>{" "}
-                n'est pas un régime de plus. C'est un programme qui travaille sur les trois dimensions 
+                n'est pas un régime de plus. C\'est un programme qui travaille sur les trois dimensions 
                 que les régimes ignorent : vos émotions, vos automatismes et votre rythme biologique.
               </p>
 

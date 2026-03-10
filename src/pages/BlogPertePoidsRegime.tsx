@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Calendar, Clock, User, ArrowRight, CheckCircle, XCircle } from "lucide-react";
+import { ArrowLeft, Calendar, Clock, User, ArrowRight, CircleCheck as CheckCircle, Circle as XCircle } from "lucide-react";
 import {
   Accordion,
   AccordionContent,

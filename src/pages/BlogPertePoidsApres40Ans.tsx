@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Calendar, Clock, User, ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowLeft, Calendar, Clock, User, ArrowRight, CircleCheck as CheckCircle } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import featuredImage from "@/assets/perte-poids-apres-40-ans.jpg";
 import ericPortrait from "@/assets/eric-gata-portrait.png";
@@ -636,7 +636,7 @@ const BlogPertePoidsApres40Ans = () => {
               </ul>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 <strong className="text-foreground">Important :</strong> Les résultats sont progressifs. Ce n'est pas
-                spectaculaire en 2 semaines. Mais c'est durable. Et après 40 ans, c'est exactement ce dont votre corps a
+                spectaculaire en 2 semaines. Mais c'est durable. Et après 40 ans, c\'est exactement ce dont votre corps a
                 besoin.
               </p>
             </section>
