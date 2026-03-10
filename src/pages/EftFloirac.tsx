@@ -16,7 +16,7 @@ const EftFloirac = () => {
     name: "AGP – Méthodes douces & Neurofeedback",
     description:
       "EFT à Floirac : libération émotionnelle, réduction du stress et apaisement mental. Séances proches de Floirac, au cabinet de Tresses.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9 Galerie Marchande",
@@ -31,7 +31,7 @@ const EftFloirac = () => {
       longitude: -0.4837,
     },
     telephone: "+33 7 82 38 66 21",
-    url: "https://methodes-douces-bordeaux.fr/eft-floirac",
+    url: "https://programme-agp.fr/eft-floirac",
     areaServed: [
       { "@type": "City", name: "Floirac" },
       { "@type": "AdministrativeArea", name: "Bordeaux Métropole" },
@@ -71,13 +71,13 @@ const EftFloirac = () => {
           name="description"
           content="EFT à Floirac : méthode douce pour calmer le mental, libérer les émotions et réduire le stress. Séances à Tresses, proche Floirac."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/eft-floirac" />
+        <link rel="canonical" href="https://programme-agp.fr/eft-floirac" />
         <meta property="og:title" content="EFT Floirac | Libération émotionnelle & apaisement" />
         <meta
           property="og:description"
           content="Découvrez l’EFT à Floirac : une méthode efficace pour réduire le stress, libérer les émotions et retrouver plus de sérénité."
         />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

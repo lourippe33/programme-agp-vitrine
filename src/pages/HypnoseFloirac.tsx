@@ -16,7 +16,7 @@ const HypnoseFloirac = () => {
     name: "AGP – Méthodes douces & Neurofeedback",
     description:
       "Hypnose à Floirac : accompagnement professionnel pour apaiser le stress, gérer les émotions, retrouver confiance et dépasser les blocages du quotidien.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9 Galerie Marchande",
@@ -31,7 +31,7 @@ const HypnoseFloirac = () => {
       longitude: -0.4837,
     },
     telephone: "+33 7 82 38 66 21",
-    url: "https://methodes-douces-bordeaux.fr/hypnose-floirac",
+    url: "https://programme-agp.fr/hypnose-floirac",
     areaServed: [
       { "@type": "City", name: "Floirac" },
       { "@type": "AdministrativeArea", name: "Bordeaux Métropole" },
@@ -62,13 +62,13 @@ const HypnoseFloirac = () => {
           name="description"
           content="Hypnose à Floirac : accompagnement professionnel pour apaiser le stress, gérer les émotions, dépasser les blocages et retrouver confiance grâce à une méthode douce et personnalisée."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/hypnose-floirac" />
+        <link rel="canonical" href="https://programme-agp.fr/hypnose-floirac" />
         <meta property="og:title" content="Hypnose Floirac | Stress, émotions & confiance" />
         <meta
           property="og:description"
           content="Séances d'hypnose à Floirac pour retrouver calme, confiance et apaisement intérieur."
         />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

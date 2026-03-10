@@ -58,7 +58,7 @@ const BlogAgp = () => {
     "@type": "CollectionPage",
     name: "Articles Méthode AGP - Blog Méthodes Douces Bordeaux",
     description: "Articles sur la méthode AGP : perte de poids durable, chronobiologie, programme 30 jours. Conseils et informations par Eric Gata.",
-    url: "https://methodes-douces-bordeaux.fr/blog/agp"
+    url: "https://programme-agp.fr/blog/agp"
   };
 
   return (
@@ -69,10 +69,10 @@ const BlogAgp = () => {
           name="description" 
           content="Articles sur la méthode AGP : perte de poids durable sans régime strict, chronobiologie, programme 30 jours. Conseils par Eric Gata, praticien à Tresses." 
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/agp" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/agp" />
         <meta property="og:title" content="Articles Méthode AGP | Perte de Poids, Chronobiologie" />
         <meta property="og:description" content="Découvrez nos articles sur la méthode AGP : perte de poids durable, écoute du corps, chronobiologie alimentaire." />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/agp" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/agp" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

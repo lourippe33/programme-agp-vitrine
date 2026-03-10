@@ -60,13 +60,13 @@ const BlogNeurofeedback = () => {
     "@type": "CollectionPage",
     name: "Articles Neurofeedback - Blog Méthodes Douces Bordeaux",
     description: "Articles et conseils sur le neurofeedback dynamique : sommeil, stress, burn-out, concentration. Informations par Eric Gata, praticien à Tresses près de Bordeaux.",
-    url: "https://methodes-douces-bordeaux.fr/blog/neurofeedback",
+    url: "https://programme-agp.fr/blog/neurofeedback",
     mainEntity: {
       "@type": "ItemList",
       itemListElement: articles.map((article, index) => ({
         "@type": "ListItem",
         position: index + 1,
-        url: `https://methodes-douces-bordeaux.fr/blog/${article.slug}`
+        url: `https://programme-agp.fr/blog/${article.slug}`
       }))
     }
   };
@@ -79,10 +79,10 @@ const BlogNeurofeedback = () => {
           name="description" 
           content="Articles et conseils sur le neurofeedback dynamique : sommeil, stress, burn-out, concentration. Informations par Eric Gata, praticien à Tresses près de Bordeaux." 
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/neurofeedback" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/neurofeedback" />
         <meta property="og:title" content="Articles Neurofeedback | Sommeil, Stress, Bien-être" />
         <meta property="og:description" content="Découvrez nos articles sur le neurofeedback dynamique : amélioration du sommeil, gestion du stress, récupération du burn-out." />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/neurofeedback" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/neurofeedback" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

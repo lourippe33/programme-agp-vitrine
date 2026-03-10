@@ -15,4 +15,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://methodes-douces-bordeaux.fr/sitemap.xml
+Sitemap: https://programme-agp.fr/sitemap.xml

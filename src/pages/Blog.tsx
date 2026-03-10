@@ -180,7 +180,7 @@ const Blog = () => {
     name: "Blog Méthodes Douces Bordeaux",
     description:
       "Articles sur le neurofeedback, l'hypnose, l'EFT-H et le bien-être. Conseils et informations par Eric Gata, praticien à Tresses près de Bordeaux.",
-    url: "https://methodes-douces-bordeaux.fr/blog",
+    url: "https://programme-agp.fr/blog",
     author: {
       "@type": "Person",
       name: "Eric Gata",
@@ -195,13 +195,13 @@ const Blog = () => {
           name="description"
           content="Articles sur le neurofeedback, l'hypnose, l'EFT-H et le bien-être. Conseils et informations par Eric Gata, praticien à Tresses près de Bordeaux."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog" />
+        <link rel="canonical" href="https://programme-agp.fr/blog" />
         <meta property="og:title" content="Blog Bien-être | Neurofeedback, Hypnose, EFT-H" />
         <meta
           property="og:description"
           content="Articles sur le neurofeedback, l'hypnose, l'EFT-H et le bien-être. Conseils par Eric Gata."
         />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog" />
+        <meta property="og:url" content="https://programme-agp.fr/blog" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

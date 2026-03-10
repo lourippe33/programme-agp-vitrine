@@ -33,13 +33,13 @@ const BlogEftH = () => {
     "@type": "CollectionPage",
     name: "Articles EFT-H - Blog Méthodes Douces Bordeaux",
     description: "Articles et conseils sur l'EFT-H (Emotional Freedom Techniques) : libération émotionnelle, gestion du stress, apaisement. Informations par Eric Gata à Tresses.",
-    url: "https://methodes-douces-bordeaux.fr/blog/eft-h",
+    url: "https://programme-agp.fr/blog/eft-h",
     mainEntity: {
       "@type": "ItemList",
       itemListElement: articles.map((article, index) => ({
         "@type": "ListItem",
         position: index + 1,
-        url: `https://methodes-douces-bordeaux.fr/blog/${article.slug}`
+        url: `https://programme-agp.fr/blog/${article.slug}`
       }))
     }
   };
@@ -52,10 +52,10 @@ const BlogEftH = () => {
           name="description" 
           content="Articles et conseils sur l'EFT-H : libération émotionnelle, gestion du stress, apaisement mental. Informations par Eric Gata, praticien à Tresses près de Bordeaux." 
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/eft-h" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/eft-h" />
         <meta property="og:title" content="Articles EFT-H | Libération Émotionnelle, Stress" />
         <meta property="og:description" content="Découvrez nos articles sur l'EFT-H : libération émotionnelle, gestion du stress, techniques de tapping." />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/eft-h" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/eft-h" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

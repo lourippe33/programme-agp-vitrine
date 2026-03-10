@@ -55,7 +55,7 @@ const CGV = () => {
                 d'un accompagnement ou d\'une formation, ci-après dénommée <strong>le Client</strong>.
               </p>
               <p>
-                Le site internet accessible à l'adresse <strong>https://www.methodes-douces-bordeaux.fr</strong> présente 
+                Le site internet accessible à l'adresse <strong>https://www.programme-agp.fr</strong> présente 
                 l'activité du Prestataire et permet la prise de contact ou de rendez-vous.
               </p>
             </section>

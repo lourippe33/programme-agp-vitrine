@@ -21,7 +21,7 @@ const Programme30Jours = () => {
       canonicalLink.setAttribute("rel", "canonical");
       document.head.appendChild(canonicalLink);
     }
-    canonicalLink.setAttribute("href", "https://methodes-douces-bordeaux.fr/programme-30-jours");
+    canonicalLink.setAttribute("href", "https://programme-agp.fr/programme-30-jours");
 
     // Meta description
     const metaDescription = document.querySelector('meta[name="description"]');

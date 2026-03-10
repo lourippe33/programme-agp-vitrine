@@ -16,7 +16,7 @@ const HypnoseCenon = () => {
     name: "AGP – Méthodes douces & Neurofeedback",
     description:
       "Hypnose à Cenon : séances professionnelles pour réduire le stress, améliorer la confiance, libérer les blocages émotionnels et retrouver une stabilité intérieure.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9 Galerie Marchande",
@@ -31,7 +31,7 @@ const HypnoseCenon = () => {
       longitude: -0.4837,
     },
     telephone: "+33 7 82 38 66 21",
-    url: "https://methodes-douces-bordeaux.fr/hypnose-cenon",
+    url: "https://programme-agp.fr/hypnose-cenon",
     areaServed: [
       { "@type": "City", name: "Cenon" },
       { "@type": "AdministrativeArea", name: "Bordeaux Métropole" },
@@ -65,13 +65,13 @@ const HypnoseCenon = () => {
           name="description"
           content="Hypnose à Cenon : libération émotionnelle, confiance en soi, réduction du stress et accompagnement du changement. Une approche douce et personnalisée, adaptée à chacun."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/hypnose-cenon" />
+        <link rel="canonical" href="https://programme-agp.fr/hypnose-cenon" />
         <meta property="og:title" content="Hypnose Cenon | Gestion du stress & émotions" />
         <meta
           property="og:description"
           content="Séances d'hypnose à Cenon pour apaiser le stress, clarifier les émotions et retrouver confiance en soi."
         />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

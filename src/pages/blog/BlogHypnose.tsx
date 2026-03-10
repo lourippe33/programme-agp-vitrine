@@ -28,7 +28,7 @@ const BlogHypnose = () => {
     "@type": "CollectionPage",
     name: "Articles Hypnose - Blog Méthodes Douces Bordeaux",
     description: "Articles et conseils sur l'hypnose : confiance en soi, lâcher-prise, changement d'habitudes. Informations par Eric Gata, praticien à Tresses près de Bordeaux.",
-    url: "https://methodes-douces-bordeaux.fr/blog/hypnose"
+    url: "https://programme-agp.fr/blog/hypnose"
   };
 
   return (
@@ -39,10 +39,10 @@ const BlogHypnose = () => {
           name="description" 
           content="Articles et conseils sur l'hypnose : confiance en soi, lâcher-prise, changement d'habitudes. Informations par Eric Gata, praticien à Tresses près de Bordeaux." 
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/hypnose" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/hypnose" />
         <meta property="og:title" content="Articles Hypnose | Confiance, Lâcher-prise, Bien-être" />
         <meta property="og:description" content="Découvrez nos articles sur l'hypnose : confiance en soi, lâcher-prise émotionnel, changement d'habitudes." />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/hypnose" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/hypnose" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

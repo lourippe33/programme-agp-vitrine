@@ -19,25 +19,25 @@ const BlogSommeilNeurofeedback = () => {
     headline: "Retrouver un Sommeil Réparateur grâce au Neurofeedback",
     description:
       "Découvrez comment le neurofeedback aide à retrouver un sommeil réparateur : réduction des insomnies, des réveils nocturnes et de la fatigue chronique. Solution naturelle à Tresses, près de Bordeaux.",
-    image: "https://methodes-douces-bordeaux.fr/assets/sommeil-reparateur-neurofeedback.jpg",
+    image: "https://programme-agp.fr/assets/sommeil-reparateur-neurofeedback.jpg",
     author: {
       "@type": "Person",
       name: "Eric Gata",
-      url: "https://methodes-douces-bordeaux.fr/a-propos",
+      url: "https://programme-agp.fr/a-propos",
     },
     publisher: {
       "@type": "Organization",
       name: "Méthodes Douces Bordeaux",
       logo: {
         "@type": "ImageObject",
-        url: "https://methodes-douces-bordeaux.fr/logo-agp.png",
+        url: "https://programme-agp.fr/logo-agp.png",
       },
     },
     datePublished: "2025-03-01",
     dateModified: "2025-12-10",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://methodes-douces-bordeaux.fr/blog/neurofeedback-sommeil-reparateur",
+      "@id": "https://programme-agp.fr/blog/neurofeedback-sommeil-reparateur",
     },
     keywords:
       "neurofeedback sommeil réparateur, neurofeedback sommeil, neurofeedback dynamique, améliorer le sommeil, troubles du sommeil, insomnie, Tresses, Bordeaux",
@@ -90,17 +90,17 @@ const BlogSommeilNeurofeedback = () => {
           name="description"
           content="Retrouvez un sommeil réparateur grâce au neurofeedback : réduction des insomnies, des réveils nocturnes et de la fatigue chronique. Approche naturelle à Tresses, près de Bordeaux."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/neurofeedback-sommeil-reparateur" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/neurofeedback-sommeil-reparateur" />
         <meta property="og:title" content="Retrouver un Sommeil Réparateur grâce au Neurofeedback" />
         <meta
           property="og:description"
           content="Découvrez comment le neurofeedback peut vous aider à améliorer votre sommeil naturellement : insomnies, réveils nocturnes, fatigue chronique."
         />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/neurofeedback-sommeil-reparateur" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/neurofeedback-sommeil-reparateur" />
         <meta
           property="og:image"
-          content="https://methodes-douces-bordeaux.fr/assets/sommeil-reparateur-neurofeedback.jpg"
+          content="https://programme-agp.fr/assets/sommeil-reparateur-neurofeedback.jpg"
         />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
         <script type="application/ld+json">{JSON.stringify(faqStructuredData)}</script>

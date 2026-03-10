@@ -15,7 +15,7 @@ const NeurofeedbackFloirac = () => {
     "@type": "LocalBusiness",
     "name": "AGP – Méthodes douces & Neurofeedback",
     "description": "À Floirac, découvrez le neurofeedback NeurOptimal : une approche douce pour réduire le stress, stabiliser le sommeil et améliorer le bien-être émotionnel.",
-    "image": "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    "image": "https://programme-agp.fr/og-agp-1200x630.jpg",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "9 Galerie Marchande",
@@ -30,7 +30,7 @@ const NeurofeedbackFloirac = () => {
       "longitude": -0.4837
     },
     "telephone": "+33 7 82 38 66 21",
-    "url": "https://methodes-douces-bordeaux.fr/neurofeedback-floirac",
+    "url": "https://programme-agp.fr/neurofeedback-floirac",
     "areaServed": [
       { "@type": "City", "name": "Floirac" },
       { "@type": "AdministrativeArea", "name": "Bordeaux Métropole" }
@@ -73,11 +73,11 @@ const NeurofeedbackFloirac = () => {
       <Helmet>
         <title>Neurofeedback Floirac | Stress, sommeil, clarté mentale</title>
         <meta name="description" content="À Floirac, découvrez le neurofeedback NeurOptimal : une approche douce pour réduire le stress, stabiliser le sommeil et améliorer le bien-être émotionnel." />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/neurofeedback-floirac" />
+        <link rel="canonical" href="https://programme-agp.fr/neurofeedback-floirac" />
         <meta property="og:title" content="Neurofeedback Floirac | Stress, sommeil, clarté mentale" />
         <meta property="og:description" content="À Floirac, découvrez le neurofeedback NeurOptimal : une approche douce pour réduire le stress, stabiliser le sommeil et améliorer le bien-être émotionnel." />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/neurofeedback-floirac" />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:url" content="https://programme-agp.fr/neurofeedback-floirac" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

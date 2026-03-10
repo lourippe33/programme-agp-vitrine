@@ -16,7 +16,7 @@ const NeurofeedbackBordeaux = () => {
     name: "AGP – Méthodes douces & Neurofeedback",
     description:
       "Séances de neurofeedback NeurOptimal à Bordeaux : méthode douce pour réduire le stress, améliorer le sommeil, apaiser le mental et retrouver un meilleur équilibre émotionnel.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9 Galerie Marchande",
@@ -31,7 +31,7 @@ const NeurofeedbackBordeaux = () => {
       longitude: -0.4837,
     },
     telephone: "+33 7 82 38 66 21",
-    url: "https://methodes-douces-bordeaux.fr/neurofeedback-bordeaux",
+    url: "https://programme-agp.fr/neurofeedback-bordeaux",
     areaServed: [
       { "@type": "City", name: "Bordeaux" },
       { "@type": "AdministrativeArea", name: "Bordeaux Métropole" },
@@ -72,14 +72,14 @@ const NeurofeedbackBordeaux = () => {
           name="description"
           content="Découvrez le neurofeedback NeurOptimal à Bordeaux : méthode douce pour réduire le stress, améliorer le sommeil, apaiser le mental et retrouver un meilleur équilibre émotionnel."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/neurofeedback-bordeaux" />
+        <link rel="canonical" href="https://programme-agp.fr/neurofeedback-bordeaux" />
         <meta property="og:title" content="Neurofeedback Bordeaux | Séances NeurOptimal pour Stress & Sommeil" />
         <meta
           property="og:description"
           content="Approche douce et naturelle pour apaiser le stress, améliorer le sommeil et retrouver une meilleure clarté mentale."
         />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/neurofeedback-bordeaux" />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:url" content="https://programme-agp.fr/neurofeedback-bordeaux" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

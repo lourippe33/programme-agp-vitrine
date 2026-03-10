@@ -16,7 +16,7 @@ const HypnoseBordeaux = () => {
     name: "AGP – Méthodes douces & Neurofeedback",
     description:
       "Hypnose à Bordeaux : séances professionnelles pour réduire le stress, apaiser les émotions, dépasser les peurs et retrouver confiance en soi.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9 Galerie Marchande",
@@ -31,7 +31,7 @@ const HypnoseBordeaux = () => {
       longitude: -0.4837,
     },
     telephone: "+33 7 82 38 66 21",
-    url: "https://methodes-douces-bordeaux.fr/hypnose-bordeaux",
+    url: "https://programme-agp.fr/hypnose-bordeaux",
     areaServed: [
       { "@type": "City", name: "Bordeaux" },
       { "@type": "AdministrativeArea", name: "Bordeaux Métropole" },
@@ -65,13 +65,13 @@ const HypnoseBordeaux = () => {
           name="description"
           content="Hypnose à Bordeaux : séances professionnelles pour réduire le stress, apaiser les émotions, se libérer des blocages et retrouver confiance. Approche douce et personnalisée."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/hypnose-bordeaux" />
+        <link rel="canonical" href="https://programme-agp.fr/hypnose-bordeaux" />
         <meta property="og:title" content="Hypnose Bordeaux | Gestion du stress, émotions & confiance" />
         <meta
           property="og:description"
           content="Séances d’hypnose à Bordeaux pour apaiser le stress, dépasser les blocages et retrouver confiance en soi."
         />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

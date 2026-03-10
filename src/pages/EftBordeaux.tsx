@@ -16,7 +16,7 @@ const EftBordeaux = () => {
     name: "AGP – Méthodes douces & Neurofeedback",
     description:
       "EFT à Bordeaux : libération émotionnelle, gestion du stress et apaisement des blocages. Séances sur mesure à Tresses, proche Bordeaux.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9 Galerie Marchande",
@@ -31,7 +31,7 @@ const EftBordeaux = () => {
       longitude: -0.4837,
     },
     telephone: "+33 7 82 38 66 21",
-    url: "https://methodes-douces-bordeaux.fr/eft-bordeaux",
+    url: "https://programme-agp.fr/eft-bordeaux",
     areaServed: [
       { "@type": "City", name: "Bordeaux" },
       { "@type": "AdministrativeArea", name: "Bordeaux Métropole" },
@@ -72,7 +72,7 @@ const EftBordeaux = () => {
           name="description"
           content="EFT à Bordeaux : une méthode douce pour libérer les émotions, réduire le stress et retrouver un apaisement profond. Séances à Tresses, proche Bordeaux."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/eft-bordeaux" />
+        <link rel="canonical" href="https://programme-agp.fr/eft-bordeaux" />
         <meta
           property="og:title"
           content="EFT Bordeaux | Libération émotionnelle & gestion du stress"
@@ -83,7 +83,7 @@ const EftBordeaux = () => {
         />
         <meta
           property="og:image"
-          content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg"
+          content="https://programme-agp.fr/og-agp-1200x630.jpg"
         />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

@@ -25,11 +25,11 @@ const BlogEmotionsPertePoidsEnLigne = () => {
     "@type": "BlogPosting",
     headline: "J'ai dépensé 1500€ en régimes avant de comprendre pourquoi je mangeais",
     alternativeHeadline: "Pourquoi je mange mes émotions ? Comprendre pour perdre du poids",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     author: {
       "@type": "Person",
       name: "Éric Gata",
-      url: "https://methodes-douces-bordeaux.fr/a-propos",
+      url: "https://programme-agp.fr/a-propos",
       jobTitle: "Praticien en méthodes douces",
       worksFor: {
         "@type": "Organization",
@@ -44,7 +44,7 @@ const BlogEmotionsPertePoidsEnLigne = () => {
     dateModified: "2026-02-23",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://methodes-douces-bordeaux.fr/blog/pourquoi-je-mange-mes-emotions-comprendre-pour-perdre-du-poids",
+      "@id": "https://programme-agp.fr/blog/pourquoi-je-mange-mes-emotions-comprendre-pour-perdre-du-poids",
     },
     articleSection: "Perte de poids",
     keywords: "pourquoi je mange mes émotions, manger émotionnel, perte de poids, hypnose, méthode AGP, Bordeaux",
@@ -130,7 +130,7 @@ const BlogEmotionsPertePoidsEnLigne = () => {
         />
         <link
           rel="canonical"
-          href="https://methodes-douces-bordeaux.fr/blog/pourquoi-je-mange-mes-emotions-comprendre-pour-perdre-du-poids"
+          href="https://programme-agp.fr/blog/pourquoi-je-mange-mes-emotions-comprendre-pour-perdre-du-poids"
         />
         <meta property="og:title" content="Pourquoi je mange mes émotions ? Comprendre pour perdre du poids" />
         <meta
@@ -139,10 +139,10 @@ const BlogEmotionsPertePoidsEnLigne = () => {
         />
         <meta
           property="og:url"
-          content="https://methodes-douces-bordeaux.fr/blog/pourquoi-je-mange-mes-emotions-comprendre-pour-perdre-du-poids"
+          content="https://programme-agp.fr/blog/pourquoi-je-mange-mes-emotions-comprendre-pour-perdre-du-poids"
         />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <meta property="og:locale" content="fr_FR" />
         <meta property="article:published_time" content="2026-02-23T10:00:00+01:00" />
         <meta property="article:author" content="Éric Gata" />

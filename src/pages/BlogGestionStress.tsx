@@ -18,25 +18,25 @@ const BlogGestionStress = () => {
     "@type": "Article",
     "headline": "Gestion du Stress, des Angoisses et des Insomnies : Un Défi Quotidien",
     "description": "Découvrez des solutions efficaces pour la gestion du stress, des angoisses et des insomnies. Retrouvez sérénité et équilibre grâce à des méthodes douces.",
-    "image": "https://methodes-douces-bordeaux.fr/assets/gestion-stress-angoisses.png",
+    "image": "https://programme-agp.fr/assets/gestion-stress-angoisses.png",
     "author": {
       "@type": "Person",
       "name": "Eric Gata",
-      "url": "https://methodes-douces-bordeaux.fr/a-propos"
+      "url": "https://programme-agp.fr/a-propos"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Méthodes Douces Bordeaux",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://methodes-douces-bordeaux.fr/logo-agp.png"
+        "url": "https://programme-agp.fr/logo-agp.png"
       }
     },
     "datePublished": "2024-10-15",
     "dateModified": "2025-12-10",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://methodes-douces-bordeaux.fr/blog/gestion-stress-angoisses"
+      "@id": "https://programme-agp.fr/blog/gestion-stress-angoisses"
     },
     "keywords": "gestion du stress, angoisses, insomnies, bien-être, neurofeedback, relaxation, Tresses, Bordeaux"
   };
@@ -47,12 +47,12 @@ const BlogGestionStress = () => {
         <title>Gestion du Stress et des Angoisses : Retrouvez Votre Sérénité | Tresses</title>
         <meta name="description" content="Gestion du stress, des angoisses et des insomnies : découvrez des solutions efficaces pour retrouver sérénité et équilibre. Cabinet à Tresses près de Bordeaux." />
         <meta name="keywords" content="gestion du stress, angoisses, insomnies, crises d'angoisse, bien-être, relaxation, neurofeedback, Tresses, Bordeaux" />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/gestion-stress-angoisses" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/gestion-stress-angoisses" />
         <meta property="og:title" content="Gestion du Stress et des Angoisses : Retrouvez Votre Sérénité" />
         <meta property="og:description" content="Découvrez des solutions efficaces pour la gestion du stress, des angoisses et des insomnies. Retrouvez un quotidien plus apaisé." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/gestion-stress-angoisses" />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/assets/gestion-stress-angoisses.png" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/gestion-stress-angoisses" />
+        <meta property="og:image" content="https://programme-agp.fr/assets/gestion-stress-angoisses.png" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

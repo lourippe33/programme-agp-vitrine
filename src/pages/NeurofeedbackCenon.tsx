@@ -16,7 +16,7 @@ const NeurofeedbackCenon = () => {
     name: "AGP – Méthodes douces & Neurofeedback",
     description:
       "Séances de neurofeedback à Cenon : méthode naturelle pour apaiser le mental, améliorer le sommeil, diminuer le stress et retrouver un meilleur équilibre émotionnel.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9 Galerie Marchande",
@@ -31,7 +31,7 @@ const NeurofeedbackCenon = () => {
       longitude: -0.4837,
     },
     telephone: "+33 7 82 38 66 21",
-    url: "https://methodes-douces-bordeaux.fr/neurofeedback-cenon",
+    url: "https://programme-agp.fr/neurofeedback-cenon",
     areaServed: [
       { "@type": "City", name: "Cenon" },
       { "@type": "AdministrativeArea", name: "Bordeaux Métropole" },
@@ -72,14 +72,14 @@ const NeurofeedbackCenon = () => {
           name="description"
           content="Neurofeedback à Cenon : une méthode douce et naturelle pour apaiser le mental, réduire le stress, améliorer le sommeil et retrouver plus de clarté."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/neurofeedback-cenon" />
+        <link rel="canonical" href="https://programme-agp.fr/neurofeedback-cenon" />
         <meta property="og:title" content="Neurofeedback Cenon | Stress, sommeil & clarté mentale" />
         <meta
           property="og:description"
           content="Séances de neurofeedback dynamique pour calmer le mental, réduire le stress et retrouver un meilleur sommeil."
         />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/neurofeedback-cenon" />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:url" content="https://programme-agp.fr/neurofeedback-cenon" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

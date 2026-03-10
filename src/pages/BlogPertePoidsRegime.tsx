@@ -24,7 +24,7 @@ const BlogPertePoidsRegime = () => {
     "@type": "Article",
     headline: "Perdre du Poids sans Régime à Bordeaux : La Méthode AGP Expliquée",
     description: "Découvrez comment perdre du poids durablement sans régime restrictif grâce à la méthode AGP. Programme 30 jours à 90€, accessible en visio depuis Bordeaux et toute la France.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     author: { "@type": "Person", name: "Éric Gata" },
     publisher: {
       "@type": "Organization",
@@ -32,7 +32,7 @@ const BlogPertePoidsRegime = () => {
     },
     datePublished: "2025-02-16",
     dateModified: "2025-02-16",
-    mainEntityOfPage: "https://methodes-douces-bordeaux.fr/blog/perdre-poids-sans-regime-bordeaux"
+    mainEntityOfPage: "https://programme-agp.fr/blog/perdre-poids-sans-regime-bordeaux"
   };
 
   const faqStructuredData = {
@@ -118,12 +118,12 @@ const BlogPertePoidsRegime = () => {
           name="keywords"
           content="perte de poids Bordeaux, maigrir sans régime, hypnose perte de poids, programme minceur Gironde, chronobiologie, méthode AGP" />
 
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/perdre-poids-sans-regime-bordeaux" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/perdre-poids-sans-regime-bordeaux" />
         <meta property="og:title" content="Perdre du Poids sans Régime à Bordeaux : La Méthode AGP Expliquée" />
         <meta property="og:description" content="Découvrez comment perdre du poids durablement sans régime restrictif grâce à la méthode AGP. Programme 30 jours à 90€." />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/perdre-poids-sans-regime-bordeaux" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/perdre-poids-sans-regime-bordeaux" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <script type="application/ld+json">{JSON.stringify(articleStructuredData)}</script>
         <script type="application/ld+json">{JSON.stringify(faqStructuredData)}</script>
       </Helmet>

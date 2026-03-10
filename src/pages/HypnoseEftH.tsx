@@ -26,7 +26,7 @@ const HypnoseEftH = () => {
       canonicalLink.setAttribute('rel', 'canonical');
       document.head.appendChild(canonicalLink);
     }
-    canonicalLink.setAttribute('href', 'https://methodes-douces-bordeaux.fr/hypnose-eft-h');
+    canonicalLink.setAttribute('href', 'https://programme-agp.fr/hypnose-eft-h');
     
     // Meta Description
     const metaDescription = document.querySelector('meta[name="description"]');
@@ -82,7 +82,7 @@ const HypnoseEftH = () => {
       "@type": "Service",
       "serviceType": "Hypnose et EFT-H",
       "provider": {
-        "@id": "https://methodes-douces-bordeaux.fr/#business"
+        "@id": "https://programme-agp.fr/#business"
       },
       "areaServed": {
         "@type": "City",

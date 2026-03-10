@@ -16,7 +16,7 @@ const EftCenon = () => {
     name: "AGP – Méthodes douces & Neurofeedback",
     description:
       "EFT à Cenon : libération émotionnelle, gestion du stress et apaisement mental. Séances à Tresses, proche Cenon.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9 Galerie Marchande",
@@ -31,7 +31,7 @@ const EftCenon = () => {
       longitude: -0.4837,
     },
     telephone: "+33 7 82 38 66 21",
-    url: "https://methodes-douces-bordeaux.fr/eft-cenon",
+    url: "https://programme-agp.fr/eft-cenon",
     areaServed: [
       { "@type": "City", name: "Cenon" },
       { "@type": "AdministrativeArea", name: "Bordeaux Métropole" },
@@ -72,13 +72,13 @@ const EftCenon = () => {
           name="description"
           content="EFT à Cenon : une méthode douce pour réduire le stress, apaiser l'anxiété et libérer les émotions. Séances à Tresses, proche de Cenon."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/eft-cenon" />
+        <link rel="canonical" href="https://programme-agp.fr/eft-cenon" />
         <meta property="og:title" content="EFT Cenon | Libération émotionnelle & apaisement du stress" />
         <meta
           property="og:description"
           content="Découvrez l'EFT à Cenon : une méthode efficace pour calmer le mental, réduire le stress et retrouver un apaisement durable."
         />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 

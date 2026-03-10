@@ -43,7 +43,7 @@ const MentionsLegales = () => {
               <h3>1. Présentation du site</h3>
               <p>
                 En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, 
-                il est précisé aux utilisateurs du site <strong>https://www.methodes-douces-bordeaux.fr/</strong> l'identité 
+                il est précisé aux utilisateurs du site <strong>https://www.programme-agp.fr/</strong> l'identité 
                 des différents intervenants dans le cadre de sa réalisation et de son suivi :
               </p>
               <ul>
@@ -61,7 +61,7 @@ const MentionsLegales = () => {
             <section>
               <h3>2. Conditions générales d'utilisation du site et des services proposés</h3>
               <p>
-                L'utilisation du site <strong>https://www.methodes-douces-bordeaux.fr/</strong> implique l'acceptation pleine 
+                L'utilisation du site <strong>https://www.programme-agp.fr/</strong> implique l'acceptation pleine 
                 et entière des conditions générales d'utilisation ci-après décrites. Ces conditions d'utilisation sont susceptibles 
                 d'être modifiées ou complétées à tout moment, les utilisateurs du site sont donc invités à les consulter de manière régulière.
               </p>
@@ -80,7 +80,7 @@ const MentionsLegales = () => {
             <section>
               <h3>3. Description des services fournis</h3>
               <p>
-                Le site <strong>https://www.methodes-douces-bordeaux.fr/</strong> a pour objet de fournir une information concernant 
+                Le site <strong>https://www.programme-agp.fr/</strong> a pour objet de fournir une information concernant 
                 l'ensemble des activités de la société.
               </p>
               <p>
@@ -152,7 +152,7 @@ const MentionsLegales = () => {
                 du 6 août 2004, l'article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.
               </p>
               <p>
-                À l'occasion de l'utilisation du site <strong>https://www.methodes-douces-bordeaux.fr/</strong>, peuvent être recueillies : 
+                À l'occasion de l'utilisation du site <strong>https://www.programme-agp.fr/</strong>, peuvent être recueillies : 
                 l'URL des liens par l'intermédiaire desquels l'utilisateur a accédé au site, le fournisseur d'accès de l'utilisateur, 
                 l'adresse de protocole Internet (IP) de l'utilisateur.
               </p>
@@ -186,7 +186,7 @@ const MentionsLegales = () => {
             <section>
               <h3>8. Liens hypertextes et cookies</h3>
               <p>
-                Le site <strong>https://www.methodes-douces-bordeaux.fr/</strong> contient un certain nombre de liens hypertextes vers 
+                Le site <strong>https://www.programme-agp.fr/</strong> contient un certain nombre de liens hypertextes vers 
                 d'autres sites, mis en place avec l'autorisation de Eric GATA GUERRA. Cependant, Eric GATA GUERRA n'a pas la possibilité 
                 de vérifier le contenu des sites ainsi visités, et n'assumera en conséquence aucune responsabilité de ce fait.
               </p>
@@ -226,7 +226,7 @@ const MentionsLegales = () => {
             <section>
               <h3>9. Droit applicable et attribution de juridiction</h3>
               <p>
-                Tout litige en relation avec l'utilisation du site <strong>https://www.methodes-douces-bordeaux.fr/</strong> est soumis 
+                Tout litige en relation avec l'utilisation du site <strong>https://www.programme-agp.fr/</strong> est soumis 
                 au droit français. Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.
               </p>
             </section>

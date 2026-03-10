@@ -21,13 +21,13 @@ const BlogPertePoidsApres40Ans = () => {
     headline: "Perte de poids après 40 ans : pourquoi votre corps ne réagit plus comme avant",
     description:
       "Découvrez pourquoi perdre du poids après 40 ans est différent : métabolisme ralenti, hormones, masse musculaire. Solutions concrètes et approche adaptée.",
-    image: "https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg",
+    image: "https://programme-agp.fr/og-agp-1200x630.jpg",
     datePublished: "2025-02-24",
     dateModified: "2025-02-24",
     author: {
       "@type": "Person",
       name: "Éric Gata",
-      url: "https://methodes-douces-bordeaux.fr/a-propos",
+      url: "https://programme-agp.fr/a-propos",
       jobTitle: "Praticien en méthodes douces",
       worksFor: {
         "@type": "Organization",
@@ -40,7 +40,7 @@ const BlogPertePoidsApres40Ans = () => {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://methodes-douces-bordeaux.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different",
+      "@id": "https://programme-agp.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different",
     },
     articleSection: "Perte de poids",
     keywords:
@@ -120,7 +120,7 @@ const BlogPertePoidsApres40Ans = () => {
 
         <link
           rel="canonical"
-          href="https://methodes-douces-bordeaux.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different"
+          href="https://programme-agp.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different"
         />
 
         <meta
@@ -134,11 +134,11 @@ const BlogPertePoidsApres40Ans = () => {
 
         <meta
           property="og:url"
-          content="https://methodes-douces-bordeaux.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different"
+          content="https://programme-agp.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different"
         />
 
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/og-agp-1200x630.jpg" />
+        <meta property="og:image" content="https://programme-agp.fr/og-agp-1200x630.jpg" />
         <meta property="og:locale" content="fr_FR" />
         <meta property="article:published_time" content="2025-02-24" />
         <meta property="article:author" content="Éric Gata" />
@@ -867,7 +867,7 @@ const BlogPertePoidsApres40Ans = () => {
               <div className="flex flex-wrap items-center gap-3">
                 <p className="text-sm text-muted-foreground">Partager cet article :</p>
                 <a
-                  href="https://www.facebook.com/sharer/sharer.php?u=https://methodes-douces-bordeaux.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https://programme-agp.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-primary hover:underline"
@@ -875,7 +875,7 @@ const BlogPertePoidsApres40Ans = () => {
                   Facebook
                 </a>
                 <a
-                  href="https://twitter.com/intent/tweet?url=https://methodes-douces-bordeaux.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different&text=Perdre+du+poids+apr%C3%A8s+40+ans+%3A+pourquoi+c%27est+diff%C3%A9rent"
+                  href="https://twitter.com/intent/tweet?url=https://programme-agp.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different&text=Perdre+du+poids+apr%C3%A8s+40+ans+%3A+pourquoi+c%27est+diff%C3%A9rent"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-primary hover:underline"
@@ -883,7 +883,7 @@ const BlogPertePoidsApres40Ans = () => {
                   Twitter
                 </a>
                 <a
-                  href="https://www.linkedin.com/sharing/share-offsite/?url=https://methodes-douces-bordeaux.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different"
+                  href="https://www.linkedin.com/sharing/share-offsite/?url=https://programme-agp.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-primary hover:underline"
@@ -891,7 +891,7 @@ const BlogPertePoidsApres40Ans = () => {
                   LinkedIn
                 </a>
                 <a
-                  href="https://pinterest.com/pin/create/button/?url=https://methodes-douces-bordeaux.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different&description=Perdre+du+poids+apr%C3%A8s+40+ans"
+                  href="https://pinterest.com/pin/create/button/?url=https://programme-agp.fr/blog/perdre-du-poids-apres-40-ans-pourquoi-cest-different&description=Perdre+du+poids+apr%C3%A8s+40+ans"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-primary hover:underline"

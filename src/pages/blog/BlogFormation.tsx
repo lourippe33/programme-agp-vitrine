@@ -28,7 +28,7 @@ const BlogFormation = () => {
     "@type": "CollectionPage",
     name: "Articles Formation - Blog Méthodes Douces Bordeaux",
     description: "Articles sur les formations en méthodes douces : hypnose, EFT, neurofeedback. Informations et conseils pour futurs praticiens.",
-    url: "https://methodes-douces-bordeaux.fr/blog/formation"
+    url: "https://programme-agp.fr/blog/formation"
   };
 
   return (
@@ -39,10 +39,10 @@ const BlogFormation = () => {
           name="description" 
           content="Articles sur les formations en méthodes douces : hypnose, EFT, neurofeedback. Informations et conseils pour devenir praticien en bien-être." 
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/formation" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/formation" />
         <meta property="og:title" content="Articles Formation | Devenir Praticien en Méthodes Douces" />
         <meta property="og:description" content="Découvrez nos articles sur les formations en méthodes douces : parcours, compétences, installation professionnelle." />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/formation" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/formation" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

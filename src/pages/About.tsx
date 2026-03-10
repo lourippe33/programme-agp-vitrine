@@ -21,7 +21,7 @@ const About = () => {
       canonicalLink.setAttribute('rel', 'canonical');
       document.head.appendChild(canonicalLink);
     }
-    canonicalLink.setAttribute('href', 'https://methodes-douces-bordeaux.fr/a-propos');
+    canonicalLink.setAttribute('href', 'https://programme-agp.fr/a-propos');
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

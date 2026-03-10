@@ -51,25 +51,25 @@ const BlogProgrammePertePoidsEnLigne = () => {
     "@type": "Article",
     headline: "Programme Perte de Poids en Ligne : Pourquoi l'Application Seule ne Suffit Pas",
     description: "Ni une app froide, ni des séances isolées. Le Programme AGP 30 jours combine application guidée et coaching hebdomadaire humain. Créé à Bordeaux, accessible partout en France.",
-    image: "https://methodes-douces-bordeaux.fr/assets/seance-visio-coaching-agp.jpg",
+    image: "https://programme-agp.fr/assets/seance-visio-coaching-agp.jpg",
     author: {
       "@type": "Person",
       name: "Eric Gata",
-      url: "https://methodes-douces-bordeaux.fr/a-propos"
+      url: "https://programme-agp.fr/a-propos"
     },
     publisher: {
       "@type": "Organization",
       name: "Méthodes Douces Bordeaux",
       logo: {
         "@type": "ImageObject",
-        url: "https://methodes-douces-bordeaux.fr/logo-agp.png"
+        url: "https://programme-agp.fr/logo-agp.png"
       }
     },
     datePublished: "2026-02-17",
     dateModified: "2026-02-17",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://methodes-douces-bordeaux.fr/blog/programme-perte-de-poids-en-ligne-coaching-bordeaux"
+      "@id": "https://programme-agp.fr/blog/programme-perte-de-poids-en-ligne-coaching-bordeaux"
     },
     keywords: "programme perte de poids en ligne France, coaching perte de poids visio, application perte de poids avec suivi humain, méthode AGP Bordeaux"
   };
@@ -93,12 +93,12 @@ const BlogProgrammePertePoidsEnLigne = () => {
         <title>Perte de Poids en Ligne + Coaching Humain | Méthode AGP Bordeaux</title>
         <meta name="description" content="Ni une app froide, ni des séances isolées. Le Programme AGP 30 jours combine application guidée et coaching hebdomadaire humain. Créé à Bordeaux, accessible partout en France." />
         <meta name="keywords" content="programme perte de poids en ligne France, coaching perte de poids visio, application perte de poids avec suivi humain, méthode AGP Bordeaux, perdre du poids sans se déplacer, programme minceur 30 jours accessible en ligne" />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/programme-perte-de-poids-en-ligne-coaching-bordeaux" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/programme-perte-de-poids-en-ligne-coaching-bordeaux" />
         <meta property="og:title" content="Perte de Poids en Ligne + Coaching Humain | Méthode AGP Bordeaux" />
         <meta property="og:description" content="Le Programme AGP 30 jours combine application guidée et coaching hebdomadaire humain. Créé à Bordeaux, accessible partout en France." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/programme-perte-de-poids-en-ligne-coaching-bordeaux" />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/assets/seance-visio-coaching-agp.jpg" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/programme-perte-de-poids-en-ligne-coaching-bordeaux" />
+        <meta property="og:image" content="https://programme-agp.fr/assets/seance-visio-coaching-agp.jpg" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
         <script type="application/ld+json">{JSON.stringify(faqStructuredData)}</script>
       </Helmet>

@@ -19,25 +19,25 @@ const BlogBurnOut = () => {
     headline: "Burn-out : Comment le Neurofeedback NeurOptimal aide à retrouver énergie et clarté mentale",
     description:
       "Découvrez comment le neurofeedback NeurOptimal accompagne les personnes en burn-out : réduction du stress, amélioration du sommeil, clarté mentale et récupération durable.",
-    image: "https://methodes-douces-bordeaux.fr/assets/neurofeedback-burn-out.png",
+    image: "https://programme-agp.fr/assets/neurofeedback-burn-out.png",
     author: {
       "@type": "Person",
       name: "Eric Gata",
-      url: "https://methodes-douces-bordeaux.fr/a-propos",
+      url: "https://programme-agp.fr/a-propos",
     },
     publisher: {
       "@type": "Organization",
       name: "Méthodes Douces Bordeaux",
       logo: {
         "@type": "ImageObject",
-        url: "https://methodes-douces-bordeaux.fr/logo-agp.png",
+        url: "https://programme-agp.fr/logo-agp.png",
       },
     },
     datePublished: "2025-03-15",
     dateModified: "2025-12-15",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://methodes-douces-bordeaux.fr/blog/neurofeedback-burn-out",
+      "@id": "https://programme-agp.fr/blog/neurofeedback-burn-out",
     },
     keywords:
       "burn out, épuisement professionnel, stress chronique, neurofeedback NeurOptimal, fatigue mentale, surcharge, sommeil, Tresses, Bordeaux",
@@ -98,13 +98,13 @@ const BlogBurnOut = () => {
           name="description"
           content="Le neurofeedback NeurOptimal accompagne les personnes en burn-out : moins de stress, meilleur sommeil, esprit plus clair, énergie retrouvée. Une méthode douce et naturelle à Tresses."
         />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/neurofeedback-burn-out" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/neurofeedback-burn-out" />
         <meta property="og:title" content="Burn-out : Comment le neurofeedback aide à retrouver son équilibre" />
         <meta
           property="og:description"
           content="Une méthode naturelle pour réduire le stress, améliorer le sommeil et sortir de l'épuisement professionnel."
         />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/assets/neurofeedback-burn-out.png" />
+        <meta property="og:image" content="https://programme-agp.fr/assets/neurofeedback-burn-out.png" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
         <script type="application/ld+json">{JSON.stringify(faqStructuredData)}</script>
       </Helmet>

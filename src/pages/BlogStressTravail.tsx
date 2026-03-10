@@ -18,25 +18,25 @@ const BlogStressTravail = () => {
     "@type": "Article",
     "headline": "Réduisez Votre Stress au Travail grâce au Neurofeedback Dynamique",
     "description": "Découvrez comment réduire le stress au travail avec le neurofeedback dynamique. Solution naturelle pour améliorer concentration, productivité et bien-être professionnel.",
-    "image": "https://methodes-douces-bordeaux.fr/assets/stress-travail-neurofeedback.jpg",
+    "image": "https://programme-agp.fr/assets/stress-travail-neurofeedback.jpg",
     "author": {
       "@type": "Person",
       "name": "Eric Gata",
-      "url": "https://methodes-douces-bordeaux.fr/a-propos"
+      "url": "https://programme-agp.fr/a-propos"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Méthodes Douces Bordeaux",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://methodes-douces-bordeaux.fr/logo-agp.png"
+        "url": "https://programme-agp.fr/logo-agp.png"
       }
     },
     "datePublished": "2024-11-15",
     "dateModified": "2025-12-10",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://methodes-douces-bordeaux.fr/blog/stress-travail-neurofeedback"
+      "@id": "https://programme-agp.fr/blog/stress-travail-neurofeedback"
     },
     "keywords": "stress au travail, neurofeedback dynamique, burn-out, gestion du stress, bien-être professionnel, Tresses, Bordeaux"
   };
@@ -47,12 +47,12 @@ const BlogStressTravail = () => {
         <title>Stress au Travail : Réduisez-le avec le Neurofeedback Dynamique | Tresses</title>
         <meta name="description" content="Gérez votre stress au travail efficacement grâce au neurofeedback dynamique. Améliorez concentration, productivité et bien-être. Cabinet à Tresses près de Bordeaux." />
         <meta name="keywords" content="stress au travail, neurofeedback dynamique, burn-out, gestion du stress, concentration, productivité, bien-être professionnel, Tresses, Bordeaux" />
-        <link rel="canonical" href="https://methodes-douces-bordeaux.fr/blog/stress-travail-neurofeedback" />
+        <link rel="canonical" href="https://programme-agp.fr/blog/stress-travail-neurofeedback" />
         <meta property="og:title" content="Stress au Travail : Réduisez-le avec le Neurofeedback Dynamique" />
         <meta property="og:description" content="Découvrez comment le neurofeedback dynamique peut vous aider à gérer le stress au travail et prévenir le burn-out." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://methodes-douces-bordeaux.fr/blog/stress-travail-neurofeedback" />
-        <meta property="og:image" content="https://methodes-douces-bordeaux.fr/assets/stress-travail-neurofeedback.jpg" />
+        <meta property="og:url" content="https://programme-agp.fr/blog/stress-travail-neurofeedback" />
+        <meta property="og:image" content="https://programme-agp.fr/assets/stress-travail-neurofeedback.jpg" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>
 
