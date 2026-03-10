@@ -15,7 +15,6 @@ import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import ZoneIntervention from "@/components/ZoneIntervention";
 import Footer from "@/components/Footer";
-import ChatBot from "@/components/ChatBot";
 import WeightLossPopup from "@/components/WeightLossPopup";
 
 const Index = () => {
@@ -164,7 +163,6 @@ const Index = () => {
         <ZoneIntervention />
       </main>
       <Footer />
-      <ChatBot />
       <WeightLossPopup />
     </div>
   );
