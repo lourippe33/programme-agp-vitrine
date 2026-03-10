@@ -112,14 +112,12 @@ const Footer = () => {
                                                                             </a>
                                                             </li>
                                                             <li>
-                                                                            <a
-                                                                                                href="https://app.programme-agp.fr"
-                                                                                                target="_blank"
-                                                                                                rel="noopener noreferrer"
-                                                                                                className="hover:text-primary transition-colors"
+                                                                            <button
+                                                                                                onClick={() => window.open('https://app.programme-agp.fr/', '_blank', 'noopener,noreferrer')}
+                                                                                                className="hover:text-primary transition-colors text-left"
                                                                                               >
                                                                                               Application
-                                                                            </a>
+                                                                            </button>
                                                             </li>
                                                             <li>
                                                                             <a

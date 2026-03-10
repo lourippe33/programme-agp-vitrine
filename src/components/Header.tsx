@@ -184,10 +184,8 @@ const Header = () => {
               Blog
             </button>
 
-            <a
-              href="https://app.programme-agp.fr"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => window.open('https://app.programme-agp.fr/', '_blank', 'noopener,noreferrer')}
               className={`transition-all font-medium px-3 py-1.5 rounded-lg ${
                 shouldUseTransparentHeader
                   ? shouldUseDarkText
@@ -197,7 +195,7 @@ const Header = () => {
               }`}
             >
               Mon appli AGP
-            </a>
+            </button>
 
             <Button
               onClick={() => scrollToSection("contact")}
@@ -287,19 +285,19 @@ const Header = () => {
               Blog
             </button>
 
-            <a
-              href="https://app.programme-agp.fr"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => {
+                window.open('https://app.programme-agp.fr/', '_blank', 'noopener,noreferrer');
+                setIsMenuOpen(false);
+              }}
               className={`text-left transition-colors font-medium py-2 ${
                 shouldUseTransparentHeader
                   ? "text-white hover:text-white/80"
                   : "text-foreground hover:text-primary"
               }`}
-              onClick={() => setIsMenuOpen(false)}
             >
               Mon appli AGP
-            </a>
+            </button>
 
             <Button
               onClick={() => scrollToSection("contact")}

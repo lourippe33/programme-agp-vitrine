@@ -61,16 +61,10 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="border-2 border-secondary text-secondary hover:bg-secondary/10 text-base md:text-lg px-6 md:px-8 py-5 md:py-6 w-full sm:w-auto hover:scale-105 transition-transform"
-              asChild
+              onClick={() => window.open('https://app.programme-agp.fr/', '_blank', 'noopener,noreferrer')}
             >
-              <a
-                href="https://app.programme-agp.fr"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <LayoutDashboard className="mr-2" size={20} />
-                Mon appli AGP
-              </a>
+              <LayoutDashboard className="mr-2" size={20} />
+              Mon appli AGP
             </Button>
           </div>
 
