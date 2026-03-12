@@ -185,7 +185,7 @@ const Header = () => {
             </button>
 
             <button
-              onClick={() => window.open('https://app.programme-agp.fr/', '_blank', 'noopener,noreferrer')}
+              onClick={() => window.open('https://appli.programme-agp.fr/', '_blank', 'noopener,noreferrer')}
               className={`transition-all font-medium px-3 py-1.5 rounded-lg ${
                 shouldUseTransparentHeader
                   ? shouldUseDarkText
@@ -287,7 +287,7 @@ const Header = () => {
 
             <button
               onClick={() => {
-                window.open('https://app.programme-agp.fr/', '_blank', 'noopener,noreferrer');
+                window.open('https://appli.programme-agp.fr/', '_blank', 'noopener,noreferrer');
                 setIsMenuOpen(false);
               }}
               className={`text-left transition-colors font-medium py-2 ${
